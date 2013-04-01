@@ -11,7 +11,7 @@
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
   
-<title>Documento sin título</title>
+<title>Sitio | Nombre</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
     <div class="span12">
     <div class="navbar">
     <div class="navbar-inner">
-      <a class="brand" href="#">Title</a>
+      <a class="brand" href="#">Escuela de Posgrado</a>
       <ul class="nav">
         <li><a href="#">EPG</a></li>
         <li class="divider-vertical"></li>
