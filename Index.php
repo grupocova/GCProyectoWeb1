@@ -20,9 +20,9 @@
     <!--<div class="span4">    
     </div>-->
     <div class="span12">
-    <div class="navbar">
+    <div class="navbar  navbar-inverse">
     <div class="navbar-inner">
-      <a class="brand" href="#">Title</a>
+      <a class="brand" href="#">Posgrado</a>
       <ul class="nav">
         <li><a href="#">EPG</a></li>
         <li class="divider-vertical"></li>
