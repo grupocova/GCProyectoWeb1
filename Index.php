@@ -20,9 +20,13 @@
     <!--<div class="span4">    
     </div>-->
     <div class="span12">
-    <div class="navbar">
+    <div class="navbar  navbar-inverse">
     <div class="navbar-inner">
+<<<<<<< HEAD
       <a class="brand" href="#">Escuela de Posgrado</a>
+=======
+      <a class="brand" href="#">Posgrado</a>
+>>>>>>> 7f14949d2e9ad5844358ca4b715b53139598c5ee
       <ul class="nav">
         <li><a href="#">EPG</a></li>
         <li class="divider-vertical"></li>
