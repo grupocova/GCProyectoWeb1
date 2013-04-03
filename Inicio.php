@@ -20,7 +20,9 @@
 
 <!-- slider-->
 <div class="container">
-<div class="well"></div>
+ <?php 
+     include('slider.php') ?>
+</div>
 </div>
 
 <!-- Principal -->
