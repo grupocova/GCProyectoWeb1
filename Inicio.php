@@ -27,12 +27,14 @@
 
 <!-- Principal -->
 <div class="container">
-<div class="well"></div>
+ <?php 
+     include('principal.php') ?>
 </div>
 
 <!-- footer -->
 <div class="container">
-<div class="well"></div>
+ <?php 
+     include('footer.php') ?>
 </div>
 
 
