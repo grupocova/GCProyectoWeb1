@@ -5,22 +5,37 @@
         </div>
             <p>Button groups can also function as radios, where only one button may be active, or checkboxes, where any number of buttons may be active. View the JavaScript docs for that.</p>
         </div>
-        
+        <!--NOTICIAS-->
         <div class="span6 panel">
         	<div class="bs-docs-example">
               <h3 class="well well-small">Noticias</h3>
             </div>
-            <div class="media">
+            
+        <?php 
+		   
+		$consulta = mysql_query ("select titulo, resumen, texto, img from bdwebcova.noticias", $conexion);
+		$nfilas = mysql_num_rows ($consulta);		
+		if($nfilas>0)
+		{
+			for ($i=0; $i<$nfilas; $i++)
+			{
+				$fila = mysql_fetch_array ($consulta);
+				 print '<div class="media">
               <a class="pull-left" href="#">
-                <img class="media-object" data-src="holder.js/120x70">
+                <img class="media-object" data-src="holder.js/120x70" src="'.$fila["img"].'">
               </a>
               <div class="media-body">
-                <h4 class="media-heading">Media heading</h4>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                <h4 class="media-heading">'.$fila["titulo"].'</h4>
+                <p>'.$fila["resumen"].'</p>
               </div>
-            </div>
-            
-            <div class="media">
+            </div>';
+			}
+		}
+		?>
+        <?php
+		 
+        ?>    
+          <!--  <div class="media">
               <a class="pull-left" href="#">
                 <img class="media-object" data-src="holder.js/120x70">
               </a>
@@ -29,7 +44,7 @@
                <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
               </div>
             </div>
-            
+               
             <div class="media">
               <a class="pull-left" href="#">
                 <img class="media-object" data-src="holder.js/120x70">
@@ -38,8 +53,12 @@
                 <h4 class="media-heading">Media heading</h4>
                <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
               </div>
-            </div>
-        </div>
+            </div>-->
+       
+       
+        </div>        
+        <!--FIN NOTICIAS-->
+        
         
         <div class="span3 panel">
         	<div class="bs-docs-example">

@@ -11,6 +11,8 @@
 </head>
 
 <body>
+<?php 
+    include ('mysql\Conectar.php')?>
 
 <!-- Header -->
 <div class="container">

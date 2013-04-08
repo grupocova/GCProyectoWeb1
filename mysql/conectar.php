@@ -1,5 +1,5 @@
 <?php
-$conexion = mysql_connect("127.0.0.1","root","","prueba");
+$conexion = mysql_connect("localhost","usercova","usercova");
 if(!$conexion){
 	die('no eh podido conectar: '.mysql.error());
 	
@@ -17,14 +17,12 @@ else{
 
 //Preparo esta peticion
 
-msql_select_db("primerabase",$conexion);
-$sql= "CREATE TABLE Noticias (
-
-Nombre())"
+mysql_select_db("bdwebcova",$conexion);
+//$sql= "CREATE TABLE Noticias (Nombre())"
 
 
 //ejecuto esta peticion
-
-
-mysql_close();
+//
+//
+//mysql_close();
 ?>
