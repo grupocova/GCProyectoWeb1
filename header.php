@@ -6,13 +6,13 @@
       <li><a href="#">Campus Virtual</a></li>
       <li><a href="#">Mapa del Sitio</a></li>
     </ul>
-                <form class="navbar-search pull-right">
+            <form class="navbar-search pull-right">
             <input type="text" class="search-query" placeholder="search" /> 
             </form> 
   </div>
    <div> 
 <a class="pull-left" href="#">
-                <img class="media-object" data-src="holder.js/1200x100">
+                <img class="media-object" data-src="holder.js/1170x100">
               </a>
   </div>
  

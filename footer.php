@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer panel">
       <div class="container">       
         <ul class="footer-links row">
         <div class="span3">
