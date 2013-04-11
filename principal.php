@@ -105,7 +105,11 @@
 <div class="row">
   <!--ANUNCIOS-------------------------------------------------------->
   <div class="span12 panel">
-  <p>anuncios </p>
+  <ul class="anuncios">
+  <li><a href><img data-src="holder.js/250x140" class="img-polaroid"><a></li>
+  <li><a href><img data-src="holder.js/250x140" class="img-polaroid"><a></li>
+  <li><a href><img data-src="holder.js/250x140" class="img-polaroid"><a></li>
+  </ul>
   </div>
    <!-- FIN ANUNCIOS-------------------------------------------------->
 </div>

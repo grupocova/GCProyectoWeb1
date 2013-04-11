@@ -133,8 +133,20 @@
             </div>
             <p>Button groups can also function as radios, where only one button may be active, or checkboxes, where any number of buttons may be active. View the JavaScript docs for that.</p>
         </div>
+        
+        
     </div>   
-    
+ <div class="row">
+ <div class="span12">
+ 	<ul>
+      <li><a href="#">img1</a></li>
+      <li><a href="#">img2</a></li>
+      <li><a href="#">img3</a></li>
+    </ul>
+ </div>
+ </div>
+ 
+ </div>   
 <footer class="footer">
       <div class="container">       
         <ul class="footer-links row">
