@@ -4,3 +4,11 @@
 .panel{
 	background-color:#CCC;
 }
+
+.anuncios{
+	display:inline-block;
+}
+.anuncios li{
+	display:inline-block;
+	float:left;
+}
