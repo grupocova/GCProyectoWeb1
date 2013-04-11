@@ -1,13 +1,40 @@
      <div class="row show-grid">
-      	<div class="span3 panel">
-        <div class="bs-docs-example">
-        	<h3 class="well well-small">Agenda</h3>
-        </div>
-            <p>Button groups can also function as radios, where only one button may be active, or checkboxes, where any number of buttons may be active. View the JavaScript docs for that.</p>
-        </div>
+      	
+        <!--AGENDA-->
+        <div class="span3 panel ">
+          <div class="bs-docs-example">
+              <h3 class="well well-small">Agenda</h3>              
+          </div>
+          <?php
+		  $consultaa = mysql_query ("select titulo, descrip, fecha from bdwebcova.agenda", $conexion);
+		  $nfilasa=mysql_num_rows ($consultaa);
+		  
+		  if($nfilasa>0)
+		  {
+			  for ($i=0; $i<$nfilasa; $i++)
+			{
+				$filaa = mysql_fetch_array ($consultaa);
+				$fechaa= strtotime($filaa["fecha"]);
+				 print '<ul class="media-list">
+              <li class="media">
+                <a class="pull-left" href="date("m",$fechaa)#">
+                  <!--<img class="media-object" data-src="holder.js/64x64">-->	  
+                  <span class="label">'.date("M",$fechaa).'</span><br>
+				  <span class="label">'.date("d",$fechaa).'</span>
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading">'.$filaa["titulo"].'</h4>
+                  <p>'.$filaa["descrip"].'</p>
+                </div>
+              </li>
+          </ul>';
+			}			
+		  } 
+       ?>
+       </div>
         <!--NOTICIAS-->
         <div class="span6 panel">
-        	<div class="bs-docs-example">
+        	<div>
               <h3 class="well well-small">Noticias</h3>
             </div>
             
@@ -60,10 +87,23 @@
         <!--FIN NOTICIAS-->
         
         
+        <div class="span3">
+        <div class="row">
         <div class="span3 panel">
-        	<div class="bs-docs-example">
         	<h3 class="well well-small">Siguenos</h3>
-            </div>
-            <p>Button groups can also function as radios, where only one button may be active, or checkboxes, where any number of buttons may be active. View the JavaScript docs for that.</p>
+            <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Google</a></li>
+            </ul>
+        	</div>
+        </div>
+        </div>
+        
+        <div class="row">
+        <div class="span3 panel">
+        <h3 class="well well-small">facebook</h3>
+        </div>
         </div>
     </div>
