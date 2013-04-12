@@ -74,17 +74,37 @@
   <div class="span3">
     <!--Siguenos----------------------------->
     <div class="row-fluid">
-    <div class="span12 panel">  
+    <div class="span12">  
      <!--<h4 class="well well-small">Siguenos</h4> -->
      
      <div class="tabbable" style="margin-bottom: 18px;"> <!-- tabbable -->
         <ul class="nav nav-tabs">
           <li class="active"><a href="#tab1" data-toggle="tab">Ingresar</a></li>
-          <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
-          <li><a href="#tab3" data-toggle="tab">Section 3</a></li>
+          <li><a href="#tab2" data-toggle="tab">Sociales</a></li>
+          <li><a href="#tab3" data-toggle="tab">Multimedia</a></li>
         </ul>
         <div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
           <div class="tab-pane active" id="tab1">
+          	
+            <form>
+            <div class="input-prepend">
+              <span class="add-on"><i class="icon-user"></i></span>
+              <input class="span10" id="prependedInput" type="text" placeholder="Usuario">
+            </div>
+            <br>    
+            <div class="input-prepend">
+              <span class="add-on"><i class="icon-lock"></i></span>
+              <input class="span10" id="prependedInput" type="password" placeholder="Contraseña">
+            </div>             
+             <div class="control-group">
+              <div class="controls">
+                <label class="checkbox">
+                  <input type="checkbox"> Recordarme
+                </label>
+                <button type="submit" class="btn">Ingresar</button>
+              </div>
+            </div>       
+            </form>
             <ul>
               <li><a href>Registrar</a></li>
               <li><a href>Olvido su contraseña?</a></li>
