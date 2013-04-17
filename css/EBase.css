@@ -5,14 +5,9 @@
 	background-color:#CCC;
 	margin:5px 0;
 }
-.anuncio{
-	list-style-type:none;
-	list-style-position:inside;
-}
-
-.anuncio li{
-	display:inline-block;
-	margin:0 10px;
+.anuncios ul{
+	background-color:#9C0;
+	padding:10px 70px;
 }
 
 .conthead2{

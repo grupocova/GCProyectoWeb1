@@ -60,98 +60,78 @@
     
     <!--Anuncios----------------------------->
     <div class="row-fluid">
-    <div class="span12 panel">
       <!--<h5 class="well well-small">Anuncios</h5>-->
       
-      <div id="carousel-demo5" class="sliderkit" >
-          <div class="sliderkit-nav">
-              <div class="sliderkit-nav-clip">                  
-                  <ul class="thumbnails">
-                    <li class="span3">
-                      <div class="thumbnail">
-                        <img data-src="holder.js/200x160" alt="">
-                        <div class="caption">
-                          <h5>Thumbnail label</h5>
-                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
-                          <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
-                        </div>
-                      </div>
-                    </li>
-                    
-                    <li class="span3">
-                      <div class="thumbnail">
-                        <img data-src="holder.js/200x160" alt="">
-                        <div class="caption">
-                          <h5>Thumbnail label</h5>
-                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
-                          <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="span3">
-                      <div class="thumbnail">
-                        <img data-src="holder.js/200x160" alt="">
-                        <div class="caption">
-                          <h5>Thumbnail label</h5>
-                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
-                          <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="span3">
-                      <div class="thumbnail">
-                        <img data-src="holder.js/200x160" alt="">
-                        <div class="caption">
-                          <h5>Thumbnail label</h5>
-                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
-                          <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="span3">
-                      <div class="thumbnail">
-                        <img data-src="holder.js/200x160" alt="">
-                        <div class="caption">
-                          <h5>Thumbnail label</h5>
-                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
-                          <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="span3">
-                      <div class="thumbnail">
-                        <img data-src="holder.js/200x160" alt="">
-                        <div class="caption">
-                          <h5>Thumbnail label</h5>
-                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
-                          <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="span3">
-                      <div class="thumbnail">
-                        <img data-src="holder.js/200x160" alt="">
-                        <div class="caption">
-                          <h5>Thumbnail label</h5>
-                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
-                          <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
-                        </div>
-                      </div>
-                    </li>
-                    
-                    <!--<li class="span3">
-                        <a href="#" title=""><img src="fotos/anuncio1.png" alt="[Alternative text]" /></a>
-                        <h3>Article title</h3>
-                        <p>Torquent perconubia nostinec varius scelerisque conubia... <a href="#" title="" class="custom-readmore">More</a></p>
-                    </li>-->
-                  </ul>
+      <div id="myCarousel" class="span12 panel carousel slide">    
+        <div class="carousel-inner anuncios">
+          <div class="item active contenedor">
+          <ul class="thumbnails">
+            <li class="span4">
+              <div class="thumbnail">
+                <img data-src="holder.js/200x160" alt="">
+                <div class="caption">
+                  <h5>Thumbnail label</h5>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                </div>
               </div>
-              <div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-prev"><a href="#" title="Scroll to the left"><span>Previous</span></a></div>
-              <div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-next"><a href="#" title="Scroll to the right"><span>Next</span></a></div>
+            </li>
+            <li class="span4">
+              <div class="thumbnail">
+                <img data-src="holder.js/200x160" alt="">
+                <div class="caption">
+                  <h5>Thumbnail label</h5>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                </div>
+              </div>
+            </li>
+             <li class="span4">
+              <div class="thumbnail">
+                <img data-src="holder.js/200x160" alt="">
+                <div class="caption">
+                  <h5>Thumbnail label</h5>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                </div>
+              </div>
+            </li>
+          </ul>  
           </div>
-      </div>
-             
-    </div>
+          <div class="item">
+            <ul class="thumbnails">
+            <li class="span4">
+              <div class="thumbnail">
+                <img data-src="holder.js/200x160" alt="">
+                <div class="caption">
+                  <h5>Thumbnail label</h5>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                </div>
+              </div>
+            </li>
+            <li class="span4">
+              <div class="thumbnail">
+                <img data-src="holder.js/200x160" alt="">
+                <div class="caption">
+                  <h5>Thumbnail label</h5>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                </div>
+              </div>
+            </li>
+             <li class="span4">
+              <div class="thumbnail">
+                <img data-src="holder.js/200x160" alt="">
+                <div class="caption">
+                  <h5>Thumbnail label</h5>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                </div>
+              </div>
+            </li>
+          </ul>          
+          </div>
+
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>    
+      
+    </div>  
     </div>
   </div>
   
@@ -211,7 +191,7 @@
     <div class="span12 panel">
      <!--<h4 class="well well-small">Facebook</h4> --> 
      
-     <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FEscuela-de-Posgrado%2F116599288362792&amp;width=500&amp;height=395&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;border_color&amp;header=false&amp;appId=149531818553989" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:350px;" allowTransparency="true"></iframe>
+     <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FEscuela-de-Posgrado%2F116599288362792&amp;width=500&amp;height=395&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;border_color&amp;header=false&amp;appId=149531818553989" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:450px;" allowTransparency="true"></iframe>
     </div>
     </div>
   </div>
