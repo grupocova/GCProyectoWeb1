@@ -2,7 +2,7 @@
 <div class="carousel slide" id="carousel">
 	<div class="carousel-inner">
 		<div class="item active">
-			<img alt="" src="http://www.consultora-ie.com/templates/default/img/misc/slide1.jpg">
+			<img alt="" src="fotos/slide01.png">
 			<div class="carousel-caption">
    				<h4>Inteligencia de Negocios (Business Intelligence)</h4>
 				<p>Diseño y construcción de sistemas de información ejecutivos para el soporte de la toma de decisiones en su empresa.</p>
@@ -11,7 +11,7 @@
 		</div>
 
 		<div class="item">
-			<img alt="" src="http://www.consultora-ie.com/templates/default/img/misc/slide2.jpg">
+			<img alt="" src="fotos/slide02.png">
 			<div class="carousel-caption">
 				<h4>Optimización de Procesos</h4>
 				<p>Modelamiento y rediseño de procesos aplicando la metodología Six-Sigma y BPM.</p>
@@ -20,7 +20,7 @@
 		</div>
    
 		<div class="item">
-			<img alt="" src="http://www.consultora-ie.com/templates/default/img/misc/slide3.jpg">
+			<img alt="" src="fotos/slide03.png">
 			<div class="carousel-caption">
 				<h4>Balanced Scorecard</h4>
 				<p>Configuración y despliegue de la estrategia de su empresa a través de un portal colaborativo online.</p>

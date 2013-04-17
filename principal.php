@@ -61,12 +61,96 @@
     <!--Anuncios----------------------------->
     <div class="row-fluid">
     <div class="span12 panel">
-      <h4 class="well well-small">Anuncios</h4>
-      <ul>
-        <li>anuncio1</li>
-        <li>anuncio2</li>
-        <li>anuncio3</li>
-      </ul>
+      <!--<h5 class="well well-small">Anuncios</h5>-->
+      
+      <div id="carousel-demo5" class="sliderkit" >
+          <div class="sliderkit-nav">
+              <div class="sliderkit-nav-clip">                  
+                  <ul class="thumbnails">
+                    <li class="span3">
+                      <div class="thumbnail">
+                        <img data-src="holder.js/200x160" alt="">
+                        <div class="caption">
+                          <h5>Thumbnail label</h5>
+                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                          <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
+                        </div>
+                      </div>
+                    </li>
+                    
+                    <li class="span3">
+                      <div class="thumbnail">
+                        <img data-src="holder.js/200x160" alt="">
+                        <div class="caption">
+                          <h5>Thumbnail label</h5>
+                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                          <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="span3">
+                      <div class="thumbnail">
+                        <img data-src="holder.js/200x160" alt="">
+                        <div class="caption">
+                          <h5>Thumbnail label</h5>
+                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                          <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="span3">
+                      <div class="thumbnail">
+                        <img data-src="holder.js/200x160" alt="">
+                        <div class="caption">
+                          <h5>Thumbnail label</h5>
+                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                          <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="span3">
+                      <div class="thumbnail">
+                        <img data-src="holder.js/200x160" alt="">
+                        <div class="caption">
+                          <h5>Thumbnail label</h5>
+                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                          <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="span3">
+                      <div class="thumbnail">
+                        <img data-src="holder.js/200x160" alt="">
+                        <div class="caption">
+                          <h5>Thumbnail label</h5>
+                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                          <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="span3">
+                      <div class="thumbnail">
+                        <img data-src="holder.js/200x160" alt="">
+                        <div class="caption">
+                          <h5>Thumbnail label</h5>
+                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                          <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
+                        </div>
+                      </div>
+                    </li>
+                    
+                    <!--<li class="span3">
+                        <a href="#" title=""><img src="fotos/anuncio1.png" alt="[Alternative text]" /></a>
+                        <h3>Article title</h3>
+                        <p>Torquent perconubia nostinec varius scelerisque conubia... <a href="#" title="" class="custom-readmore">More</a></p>
+                    </li>-->
+                  </ul>
+              </div>
+              <div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-prev"><a href="#" title="Scroll to the left"><span>Previous</span></a></div>
+              <div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-next"><a href="#" title="Scroll to the right"><span>Next</span></a></div>
+          </div>
+      </div>
+             
     </div>
     </div>
   </div>

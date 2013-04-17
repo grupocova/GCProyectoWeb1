@@ -5,11 +5,28 @@
 	background-color:#CCC;
 	margin:5px 0;
 }
+.anuncio{
+	list-style-type:none;
+	list-style-position:inside;
+}
 
-.anuncios{
+.anuncio li{
 	display:inline-block;
+	margin:0 10px;
 }
-.anuncios li{
-	display:inline-block;
-	float:left;
+
+.conthead2{
+	float:right;	
 }
+/*.icosocial a{
+	display: block;
+	width:10px;
+	height:10px;
+	background-image:url(../img/icoSociales.png);
+	background-repeat:no-repeat;
+}
+.icosocial a span{
+	display:none;
+}
+
+#ico_face { background-position:0 0;}*/
