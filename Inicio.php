@@ -17,11 +17,12 @@
     include ('mysql\Conectar.php')?>
 
 <!-- Header -->
+<header class="header">
 <div class="container">
  <?php 
      include('header.php') ?>
 </div>
-
+</header>
 <!-- slider-->
 <div class="container">
  <?php 
@@ -36,11 +37,12 @@
 </div>
 
 <!-- footer -->
-<div class="container">
+<footer class="footer well">
+<div class="container ">
  <?php 
      include('footer.php') ?>
 </div>
-
+</footer>
 
 
 

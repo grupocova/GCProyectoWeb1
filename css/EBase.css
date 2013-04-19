@@ -1,27 +1,116 @@
 @charset "utf-8";
 /* CSS Document */
 
-.panel{
-	background-color:#CCC;
-	margin:5px 0;
+/*-----Paneles de la web*/
+.panel {
+  padding: 1px;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #e3e3e3;
+  margin-bottom: 10px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.panel-title {
+  padding: 6px 10px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  -webkit-border-radius: 5px 5px 0 0;
+     -moz-border-radius: 5px 5px 0 0;
+          border-radius: 5px 5px 0 0;
+}
+
+.panel-title:empty {
+  display: none;
+}
+
+.panel-content {
+  padding:12px 10px 10px 10px;
+}
+/*------fin paneles*/
+
+/*------icono*/
+.icono{
+  padding: 1px;
+  text-align:center;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  max-width:45px;
+  max-height:80px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;
+}
+.icono-title {
+  padding: 3px 10px;
+  margin: 0;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  -webkit-border-radius: 5px 5px 0 0;
+     -moz-border-radius: 5px 5px 0 0;
+          border-radius: 5px 5px 0 0;
+}
+
+.icono-title:empty {
+  display: none;
+}
+
+.icono-content {
+  padding: 6px 12px;
+  font-size:20px;
+  font-weight:bold;
+}
+/*------fin icono*/
+
+.header{
+}
+.anuncios{
 }
 .anuncios ul{
-	background-color:#9C0;
+	/*background-color:#9C0;*/
 	padding:10px 70px;
+	margin:0;
 }
+.anuncios ul li{
+	margin:0;
+	padding:0;
+}
+
 
 .conthead2{
 	float:right;	
 }
-/*.icosocial a{
-	display: block;
-	width:10px;
-	height:10px;
-	background-image:url(../img/icoSociales.png);
-	background-repeat:no-repeat;
-}
-.icosocial a span{
-	display:none;
+.navinf {
+	height:auto;
 }
 
-#ico_face { background-position:0 0;}*/
+.navinf > ul{
+	list-style-position:inherit;
+	padding:0;
+	margin:0;
+	/*height:100%;*/
+	/*height:200px;
+	background-color:#F00;*/
+}
+
+.navinf > ul >li ul li{
+	margin:5px 0 0 0;
+}

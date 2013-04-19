@@ -1,4 +1,5 @@
 
+<!--Navegacion superior--------------------------------->
 <div class="navbar navbar-inverse">
   <div class="navbar-inner">
     <a class="brand" href="#">Escuela De Posgrado</a>
@@ -26,12 +27,12 @@
           <li><a href="#">Italiano</a></li>
         </ul>
       </li>
-    </ul>
-    
+    </ul>    
   </div>
-  
-  
-  <div class="row-fluid">
+</div><!--Fin navegacion superior-->
+
+<!--Logo, buscador, fecha--------------------------------->  
+<div class="row-fluid">
   <div class="span9">
     <div> 
       <a class="pull-left" href="#">
@@ -48,35 +49,35 @@
       </div>
     </form>
   </div>
-  </div>
-  
-  <div class="row-fluid">
-  <div class="span12">
-    <ul class="nav nav-pills">
-    <?php
-	  $consulta1 = mysql_query ('select id,titulo from bdwebcova.contenido where orden="1"', $conexion);
-	  $nfilas1=mysql_num_rows ($consulta1);
-	  
-	  if($nfilas1>0)
-	  {
-		  for ($i=0; $i<$nfilas1; $i++)
-		{
-			$fila1 = mysql_fetch_array ($consulta1);
-			print '<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">'.$fila1['titulo'].'<b class="caret"></b></a>
-					<ul class="dropdown-menu">
-					  <li><a href="#">Campus Virtual</a></li>
-					  <li><a href="#">Mapa del Sitio</a></li>
-					</ul>
-				   </li>';
-		}
-	  }
-    ?>
-
-    </ul>
- </div>
- </div>
-  
 </div>
+<!--Fin Logo, buscador, fecha--------------------------------->  
+  
+<div class="row-fluid">
+  <div class="span12 navbar-inverse">
+    <ul class="nav nav-pills">
+      <?php
+        $consulta1 = mysql_query ('select id,titulo from bdwebcova.contenido where orden="1"', $conexion);
+        $nfilas1=mysql_num_rows ($consulta1);
+        
+        if($nfilas1>0)
+        {
+            for ($i=0; $i<$nfilas1; $i++)
+          {
+              $fila1 = mysql_fetch_array ($consulta1);
+              print '<li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">'.$fila1['titulo'].'<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Campus Virtual</a></li>
+                        <li><a href="#">Mapa del Sitio</a></li>
+                      </ul>
+                     </li>';
+          }
+        }
+      ?>
+    </ul>
+  </div>
+</div>
+  
+
 
 
