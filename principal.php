@@ -3,7 +3,7 @@
     <div class="row-fluid">
       <!--Agenda------------------------------->
       <div class="span4 panel">
-        <div class="panel-title"><h4>Anuncios</h4></div>
+        <div class="panel-title"><h4>Eventos</h4></div>
         <div class="panel-content">
 		  <?php
             $consultaa = mysql_query ("select titulo, descrip, fecha from bdwebcova.agenda", $conexion);
@@ -68,8 +68,8 @@
     <!--Anuncios----------------------------->
     <div class="row-fluid">
       <!--<h5 class="well well-small">Anuncios</h5>-->      
-      <div id="myCarousel" class="span12 panel carousel slide">    
-        <div class="carousel-inner anuncios">          
+      <div id="" class="span12 panel ">    
+        <div class=" anuncios">          
           <div class="item active ">
             <ul class="thumbnails">
             <li class="span4">
@@ -133,8 +133,8 @@
             </ul>          
           </div>
         </div>
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>       
+        <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>-->       
       </div>  
     </div>
     <!-- /Fin Anuncios----------------------------->    
@@ -150,7 +150,7 @@
         <ul class="nav nav-tabs">
           <li class="active"><a href="#tab1" data-toggle="tab">Ingresar</a></li>
           <li><a href="#tab2" data-toggle="tab">Sociales</a></li>
-          <li><a href="#tab3" data-toggle="tab">Multimedia</a></li>
+          <li><a href="#tab3" data-toggle="tab">Multi</a></li>
         </ul>
         <div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
           <div class="tab-pane active" id="tab1">

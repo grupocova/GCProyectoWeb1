@@ -21,11 +21,12 @@
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
-  background-color: #f7f7f7;
+  background-color: #888888;
   border-bottom: 1px solid #ebebeb;
   -webkit-border-radius: 5px 5px 0 0;
      -moz-border-radius: 5px 5px 0 0;
           border-radius: 5px 5px 0 0;
+		  color:#FFF;
 }
 
 .panel-title:empty {
@@ -80,8 +81,84 @@
 }
 /*------fin icono*/
 
-.header{
+/*Navegacion justificada*/
+.nav-just .navbar .navbar-inner {
+        padding: 0;
+      }
+.nav-just .navbar .nav {
+  margin: 0;
+  display: table;
+  width: 100%;
 }
+.nav-just .navbar .nav li {
+  display: table-cell;
+  width: 1%;
+  float: none;
+}
+.nav-just .navbar .nav li a {
+  font-weight: bold;
+  text-align: center;/*
+  border-left: 1px solid rgba(255,255,255,.75);
+  border-right: 1px solid rgba(0,0,0,.1);*/
+}
+
+
+
+.header{
+   background: -webkit-linear-gradient(#9B0000, #480000);
+   background: -moz-linear-gradient(#9B0000, #480000);
+   background: -o-linear-gradient(#9B0000, #480000);
+}
+
+.header .navprin{
+   /*background: -webkit-linear-gradient(#212121, #121212);
+   background: -moz-linear-gradient(#212121, #121212);
+   background: -o-linear-gradient(#212121, #121212);*/
+}
+
+.header .navprin .nav-just{
+	padding:0;
+	margin:0;
+}
+
+.header .navprin > div {
+}
+.header .navprin ul{
+	
+}
+
+.logo{
+	margin:70px 0 10px 0;
+	color:#FFF;
+}
+.icosocial ul{
+	list-style-type:none;
+	list-style-position:inherit;	
+}
+.icosocial li{
+	display:inline-block;
+	float:right;
+	margin:0 0 0 15px;
+}
+.icosocial a{
+	display:block;
+	width:30px;
+	height:30px;
+	background-image:url(../img/icoSociales2.png);
+}
+.icosocial a span{
+	display:none;	
+}
+.icosocial #face{background-position:0 0}
+.icosocial #twit{background-position:-35px 0}
+.icosocial #you{background-position:-70px 0}
+.icosocial #gog{background-position:-105px 0}
+
+.icosocial #face:hover{background-position:0 30px}
+.icosocial #twit:hover{background-position:-35px 30px}
+.icosocial #you:hover{background-position:-70px 30px}
+.icosocial #gog:hover{background-position:-105px 30px}
+
 .anuncios{
 }
 .anuncios ul{

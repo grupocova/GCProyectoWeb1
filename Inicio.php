@@ -18,16 +18,15 @@
 
 <!-- Header -->
 <header class="header">
-<div class="container">
+
  <?php 
      include('header.php') ?>
-</div>
 </header>
+
 <!-- slider-->
 <div class="container">
  <?php 
      include('slider.php') ?>
-</div>
 </div>
 
 <!-- Principal -->
@@ -62,9 +61,7 @@
   <script src="js/bootstrap-typeahead.js"></script>
   <script src="js/bootstrap-affix.js"></script>
   <script src="js/holder.js"></script>
-  <script type="text/javascript">
-  $('.dropdown-togle').dropdown()
-  </script>  
-  
+  <script src="js/prettify.js"></script>
+  <script src="js/application.js"></script>
 </body>
 </html>

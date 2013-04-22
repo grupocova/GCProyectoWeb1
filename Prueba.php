@@ -24,28 +24,28 @@
             <span class="icon-bar"></span>
           </a>
           <a class="brand" href="#">Escuela de Posgrado</a>          
-            <ul class="nav" role="navigation">
-              <li class="dropdown">
-                  <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">EPG <b class="caret"></b> </a>
-                  <ul class="dropdown-menu" role="menu" aria-labelledby="dlabel">
-                  	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Historia</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Misi&oacute;n y Visi&oacute;n </a></li>
-                  </ul>
-              </li>
-              <li class="divider-vertical"></li>
-              <li><a href="#">Diplomados</a></li>
-              <li class="divider-vertical"></li>
-              <li><a href="#">Maestrias</a></li>
-              <li class="divider-vertical"></li>
-              <li><a href="#">Doctorados</a></li>
-              <li class="divider-vertical"></li>
-            </ul>   
+          <ul class="nav" role="navigation">
+            <li class="dropdown">
+                <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">EPG <b class="caret"></b> </a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dlabel">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Historia</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Misi&oacute;n y Visi&oacute;n </a></li>
+                </ul>
+            </li>
+            <li class="divider-vertical"></li>
+            <li><a href="#">Diplomados</a></li>
+            <li class="divider-vertical"></li>
+            <li><a href="#">Maestrias</a></li>
+            <li class="divider-vertical"></li>
+            <li><a href="#">Doctorados</a></li>
+            <li class="divider-vertical"></li>
+          </ul>   
             <form class="navbar-search pull-right">
             <input type="text" class="search-query" placeholder="search" /> 
             </form>         
-          </div>          
-        </div>     
-      </div>
+        </div>          
+      </div>     
+    </div>
    	</div>
     
     <div class="container">
@@ -79,7 +79,23 @@
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
                 <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
               </div>
-       
+              
+     <div class="masthead">
+        <div class="nav-just navbar">
+          <div class="navbar-inner">
+            <div class="container">
+              <ul class="nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Downloads</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- /.navbar -->
+      </div>
               
               
               
