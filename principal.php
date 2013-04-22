@@ -3,7 +3,7 @@
     <div class="row-fluid">
       <!--Agenda------------------------------->
       <div class="span4 panel">
-        <div class="panel-title"><h4>Eventos</h4></div>
+        <div class="panel-title"><h5>EVENTOS</h5></div>
         <div class="panel-content">
 		  <?php
             $consultaa = mysql_query ("select titulo, descrip, fecha from bdwebcova.agenda", $conexion);
@@ -39,7 +39,7 @@
       
       <!--Noticias----------------------------->
       <div class="span8 panel">
-        <div class="panel-title"><h4>Noticias</h4></div>
+        <div class="panel-title"><h5>NOTICIAS</h5></div>
         <div class="panel-content">      
 		  <?php          
             $consulta = mysql_query ("select titulo, resumen, texto, img from bdwebcova.noticias", $conexion);
@@ -68,73 +68,74 @@
     <!--Anuncios----------------------------->
     <div class="row-fluid">
       <!--<h5 class="well well-small">Anuncios</h5>-->      
-      <div id="" class="span12 panel ">    
-        <div class=" anuncios">          
-          <div class="item active ">
+      <div id="myCarousel2" class="span12 panel carousel slide">    
+        <div class="carousel-inner anuncios">
+          <div class="item active contenedor">
             <ul class="thumbnails">
-            <li class="span4">
-              <div class="thumbnail">
-                <img data-src="holder.js/200x140" alt="">
-                <div class="caption">
-                  <h5>Thumbnail label</h5>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+              <li class="span4">
+                <div class="thumbnail">
+                  <img data-src="holder.js/220x150" alt="">
+                  <div class="caption">
+                    <h5>Thumbnail label</h5>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>                  
+                  </div>
                 </div>
-              </div>
-            </li>
-            <li class="span4">
-              <div class="thumbnail">
-                <img data-src="holder.js/200x140" alt="">
-                <div class="caption">
-                  <h5>Thumbnail label</h5>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+              </li>
+              <li class="span4">
+                <div class="thumbnail">
+                  <img data-src="holder.js/220x150" alt="">
+                  <div class="caption">
+                    <h5>Thumbnail label</h5>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>  
+                  </div>
                 </div>
-              </div>
-            </li>
-             <li class="span4">
-              <div class="thumbnail">
-                <img data-src="holder.js/200x140" alt="">
-                <div class="caption">
-                  <h5>Thumbnail label</h5>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+              </li>
+               <li class="span4">
+                <div class="thumbnail">
+                  <img data-src="holder.js/220x150" alt="">
+                  <div class="caption">
+                    <h5>Thumbnail label</h5>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>  
+                  </div>
                 </div>
-              </div>
-            </li>
+              </li>
             </ul>  
           </div>
           <div class="item">
             <ul class="thumbnails">
             <li class="span4">
               <div class="thumbnail">
-                <img data-src="holder.js/200x140" alt="">
+                <img data-src="holder.js/220x150" alt="">
                 <div class="caption">
                   <h5>Thumbnail label</h5>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>  
                 </div>
               </div>
             </li>
             <li class="span4">
               <div class="thumbnail">
-                <img data-src="holder.js/200x140" alt="">
+                <img data-src="holder.js/220x150" alt="">
                 <div class="caption">
                   <h5>Thumbnail label</h5>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>  
                 </div>
               </div>
             </li>
              <li class="span4">
               <div class="thumbnail">
-                <img data-src="holder.js/200x140" alt="">
+                <img data-src="holder.js/220x150" alt="">
                 <div class="caption">
                   <h5>Thumbnail label</h5>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>  
                 </div>
               </div>
             </li>
-            </ul>          
-          </div>
+          </ul>          
+          </div>  
         </div>
-        <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>-->       
+        <a class="left carousel-control" href="#myCarousel2" data-slide="prev">&lsaquo;</a>
+        <a class="right carousel-control" href="#myCarousel2" data-slide="next">&rsaquo;</a>     
+        
       </div>  
     </div>
     <!-- /Fin Anuncios----------------------------->    

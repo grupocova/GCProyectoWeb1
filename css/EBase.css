@@ -15,13 +15,29 @@
      -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
+.panel .i-agenda{
+	height:32px;
+	width:32px;
+	margin-right:10px;
+	background-image:url(../img/iconos.png);
+	background-position:0 0;	
+}
+
+.panel .i-noticia{
+	height:32px;
+	width:32px;
+	margin-right:10px;
+	background-image:url(../img/iconos.png);
+	background-position:-32px 0;	
+}
 .panel-title {
   padding: 6px 10px;
   margin: 0;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
-  background-color: #888888;
+  font-family:Verdana, Geneva, sans-serif;
+  background-color:#333333;
   border-bottom: 1px solid #ebebeb;
   -webkit-border-radius: 5px 5px 0 0;
      -moz-border-radius: 5px 5px 0 0;
@@ -63,11 +79,16 @@
   font-size: 13px;
   font-weight: normal;
   line-height: 18px;
-  background-color: #f7f7f7;
+  color:#FFF;
+  /*background-color: #f7f7f7;*/
+  background: -webkit-linear-gradient(#9B0000, #480000);
+   background: -moz-linear-gradient(#9B0000, #480000);
+   background: -o-linear-gradient(#9B0000, #480000);
   border-bottom: 1px solid #ebebeb;
   -webkit-border-radius: 5px 5px 0 0;
      -moz-border-radius: 5px 5px 0 0;
           border-radius: 5px 5px 0 0;
+		  
 }
 
 .icono-title:empty {
@@ -78,6 +99,7 @@
   padding: 6px 12px;
   font-size:20px;
   font-weight:bold;
+  color:#9B0000;
 }
 /*------fin icono*/
 
@@ -144,7 +166,7 @@
 	display:block;
 	width:30px;
 	height:30px;
-	background-image:url(../img/icoSociales2.png);
+	background-image:url(../img/icoSociales4.png);
 }
 .icosocial a span{
 	display:none;	
@@ -158,6 +180,8 @@
 .icosocial #twit:hover{background-position:-35px 30px}
 .icosocial #you:hover{background-position:-70px 30px}
 .icosocial #gog:hover{background-position:-105px 30px}
+
+
 
 .anuncios{
 }
