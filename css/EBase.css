@@ -16,7 +16,7 @@
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 .panel-title {
-  padding: 6px 10px;
+  padding: 1px 10px;
   margin: 0;
   font-size: 14px;
   font-weight: normal;
@@ -34,13 +34,18 @@
   display: none;
 }
 
+.panel-title h1{
+	width:30px;
+	height:30px;
+	background-color:#09C;
+}
 .panel-content {
   padding:12px 10px 10px 10px;
 }
 /*------fin paneles*/
 
 /*------icono*/
-.icono{
+.idate{
   text-align:center;
   background-color: #ffffff;
   border: 1px solid #ccc;
@@ -57,7 +62,7 @@
      -moz-background-clip: padding;
           background-clip: padding-box;
 }
-.icono-title {
+.idate-mes{
   padding: 3px 10px;
   margin: 0;
   font-size: 13px;
@@ -72,14 +77,13 @@
   -webkit-border-radius: 5px 5px 0 0;
      -moz-border-radius: 5px 5px 0 0;
           border-radius: 5px 5px 0 0;
-		  
 }
 
-.icono-title:empty {
+.idate-mes:empty {
   display: none;
 }
 
-.icono-content {
+.idate-dia{
   padding: 6px 12px;
   font-size:20px;
   font-weight:bold;
@@ -89,8 +93,8 @@
 
 /*Navegacion justificada*/
 .nav-just .navbar .navbar-inner {
-        padding: 0;
-      }
+  padding: 0;
+}
 .nav-just .navbar .nav {
   margin: 0;
   display: table;
@@ -164,6 +168,8 @@
 .icosocial #twit:hover{background-position:-35px 30px}
 .icosocial #you:hover{background-position:-70px 30px}
 .icosocial #gog:hover{background-position:-105px 30px}
+
+
 
 
 

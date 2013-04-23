@@ -18,9 +18,9 @@
                    print '<ul class="media-list">
 						<li class="media">
 						  <a class="pull-left" href="#">
-							<div class="icono">
-							  <h5 class="icono-title">'.date("M",$fechaa).'</h5>
-							  <div class="icono-content">'.date("d",$fechaa).'</div>
+							<div class="idate">
+							  <h5 class="idate-mes">'.date("M",$fechaa).'</h5>
+							  <div class="idate-dia">'.date("d",$fechaa).'</div>
 							</div>	  
 						  </a>
 						  <div class="media-body">
@@ -39,7 +39,7 @@
       
       <!--Noticias----------------------------->
       <div class="span8 panel">
-        <div class="panel-title"><h5>NOTICIAS</h5></div>
+        <div class="panel-title"><h1 class="i-noticias"></h1><h5>NOTICIAS</h5></div>
         <div class="panel-content">      
 		  <?php          
             $consulta = mysql_query ("select titulo, resumen, texto, img from bdwebcova.noticias", $conexion);
