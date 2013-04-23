@@ -3,66 +3,86 @@
     <div class="row-fluid">
       <!--Agenda------------------------------->
       <div class="span4 panel">
-        <div class="panel-title"><h5>EVENTOS</h5></div>
-        <div class="panel-content">
-		  <?php
-            $consultaa = mysql_query ("select titulo, descrip, fecha from bdwebcova.agenda", $conexion);
-            $nfilasa=mysql_num_rows ($consultaa);
-            
-            if($nfilasa>0)
-            {
-                for ($i=0; $i<$nfilasa; $i++)
+        <div class="row-fluid">
+          <div class="panel-title span12">
+          <ul>
+          <li class="title-icono"><span class="icono ico-agenda"></span></li>
+          <li class="title-nombre">EVENTOS</li>
+          <li class="title-item">ver mas</li>
+          <li class="title-item">ver ant</li>
+          </ul>
+          </div>
+        </div> 
+        <div class="row-fluid"> 
+          <div class="panel-content span12">
+			<?php
+              $consultaa = mysql_query ("select titulo, descrip, fecha from bdwebcova.agenda", $conexion);
+              $nfilasa=mysql_num_rows ($consultaa);
+              
+              if($nfilasa>0)
               {
-                  $filaa = mysql_fetch_array ($consultaa);
-                  $fechaa= strtotime($filaa["fecha"]);
-                   print '<ul class="media-list">
-						<li class="media">
-						  <a class="pull-left" href="#">
-							<div class="idate">
-							  <h5 class="idate-mes">'.date("M",$fechaa).'</h5>
-							  <div class="idate-dia">'.date("d",$fechaa).'</div>
-							</div>	  
-						  </a>
-						  <div class="media-body">
-							<h4 class="media-heading">'.$filaa["titulo"].'</h4>
-							<p>'.$filaa["descrip"].'</p>
-						  </div>
-						</li>
-					</ul>';
-              }			
-            } 
-            ?>
-        
-                  
+                  for ($i=0; $i<$nfilasa; $i++)
+                {
+                    $filaa = mysql_fetch_array ($consultaa);
+                    $fechaa= strtotime($filaa["fecha"]);
+                     print '<ul class="media-list">
+                          <li class="media">
+                            <a class="pull-left" href="#">
+                              <div class="idate">
+                                <h5 class="idate-mes">'.date("M",$fechaa).'</h5>
+                                <div class="idate-dia">'.date("d",$fechaa).'</div>
+                              </div>	  
+                            </a>
+                            <div class="media-body">
+                              <h4 class="media-heading">'.$filaa["titulo"].'</h4>
+                              <p>'.$filaa["descrip"].'</p>
+                            </div>
+                          </li>
+                      </ul>';
+                }			
+              } 
+              ?>                         
+          </div>
+        </div>
+      </div>
+      <!--Noticias----------------------------->
+      <div class="span8 panel">
+        <div class="row-fluid">
+          <div class="panel-title span12">
+          <ul>
+          <li class="title-icono"><span class="icono ico-noticia"></span></li>
+          <li class="title-nombre">NOTICIAS</li>
+          <li class="title-item">ver mas</li>
+          <li class="title-item">ver anteriores</li>
+          </ul>
+          </div>
+        </div> 
+        <div class="row-fluid"> 
+          <div class="panel-content span12">      
+            <?php          
+              $consulta = mysql_query ("select titulo, resumen, texto, img from bdwebcova.noticias", $conexion);
+              $nfilas = mysql_num_rows ($consulta);		
+              if($nfilas>0)
+              {
+                  for ($i=0; $i<$nfilas; $i++)
+                  {
+                      $fila = mysql_fetch_array ($consulta);
+                       print '<div class="media">
+                        <a class="pull-left" href="#">
+                          <img class="media-object" data-src="holder.js/150x90" src="'.$fila["img"].'">
+                        </a>
+                        <div class="media-body">
+                          <h4 class="media-heading">'.$fila["titulo"].'</h4>
+                          <p>'.$fila["resumen"].'</p>
+                        </div>
+                      </div>';
+                  }
+              }
+            ?>                       
+          </div>
         </div>
       </div>
       
-      <!--Noticias----------------------------->
-      <div class="span8 panel">
-        <div class="panel-title"><h1 class="i-noticias"></h1><h5>NOTICIAS</h5></div>
-        <div class="panel-content">      
-		  <?php          
-            $consulta = mysql_query ("select titulo, resumen, texto, img from bdwebcova.noticias", $conexion);
-            $nfilas = mysql_num_rows ($consulta);		
-            if($nfilas>0)
-            {
-                for ($i=0; $i<$nfilas; $i++)
-                {
-                    $fila = mysql_fetch_array ($consulta);
-                     print '<div class="media">
-					  <a class="pull-left" href="#">
-						<img class="media-object" data-src="holder.js/150x90" src="'.$fila["img"].'">
-					  </a>
-					  <div class="media-body">
-						<h4 class="media-heading">'.$fila["titulo"].'</h4>
-						<p>'.$fila["resumen"].'</p>
-					  </div>
-					</div>';
-                }
-            }
-          ?>                       
-      	</div>
-      </div>
     </div>
     
     <!--Anuncios----------------------------->
