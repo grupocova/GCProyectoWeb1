@@ -74,7 +74,7 @@
             <ul class="thumbnails">
               <li class="span4">
                 <div class="thumbnail">
-                  <img data-src="holder.js/220x150" alt="">
+                  <img data-src="holder.js/220x130" alt="">
                   <div class="caption">
                     <h5>Thumbnail label</h5>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>                  
@@ -83,7 +83,7 @@
               </li>
               <li class="span4">
                 <div class="thumbnail">
-                  <img data-src="holder.js/220x150" alt="">
+                  <img data-src="holder.js/220x130" alt="">
                   <div class="caption">
                     <h5>Thumbnail label</h5>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>  
@@ -92,7 +92,7 @@
               </li>
                <li class="span4">
                 <div class="thumbnail">
-                  <img data-src="holder.js/220x150" alt="">
+                  <img data-src="holder.js/220x130" alt="">
                   <div class="caption">
                     <h5>Thumbnail label</h5>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>  

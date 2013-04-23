@@ -15,21 +15,6 @@
      -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
-.panel .i-agenda{
-	height:32px;
-	width:32px;
-	margin-right:10px;
-	background-image:url(../img/iconos.png);
-	background-position:0 0;	
-}
-
-.panel .i-noticia{
-	height:32px;
-	width:32px;
-	margin-right:10px;
-	background-image:url(../img/iconos.png);
-	background-position:-32px 0;	
-}
 .panel-title {
   padding: 6px 10px;
   margin: 0;
@@ -56,7 +41,6 @@
 
 /*------icono*/
 .icono{
-  padding: 1px;
   text-align:center;
   background-color: #ffffff;
   border: 1px solid #ccc;

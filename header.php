@@ -18,7 +18,7 @@
             </div>
           </form>--> 
           <form class="navbar-search pull-left" action="">
-            <input type="text" class="search-query span2" placeholder="Search">
+            <input type="text" class="search-query span2" placeholder="Buscar">
           </form>
           </li>
           <li class="dropdown">
