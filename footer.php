@@ -1,13 +1,6 @@
   <div class="row-fluid">
   <div class="span12 navinf">
      <ul class="">
-        <li class="span3"><a href="#">EPG</a>
-          <ul>
-            <li><a href="#">Presentacion</a></li>
-            <li><a href="#">Mision y Vision</a></li>
-            <li><a href="#">Autoridades</a></li>
-          </ul>
-        </li> 
         <li class="span3"><a href="#">ESPECIALIDADES</a>
           <ul>
             <li><a href="#">En enfermería</a></li>
@@ -37,14 +30,7 @@
             <li><a href="#">Educacion</a></li>
             <li><a href="#">Teologia</a></li>
           </ul>
-        </li>  
-        <li class="span3"><a href="#">INFORMES</a>
-          <ul>
-            <li><a href="#">Proceso de admision</a></li>
-            <li><a href="#">Requisitos</a></li>
-            <li><a href="#">Inscripcion en linea</a></li>
-          </ul>
-        </li>            
+        </li>   
       </ul>
    </div>
   </div>  

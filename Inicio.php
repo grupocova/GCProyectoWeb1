@@ -36,7 +36,7 @@
 </div>
 
 <!-- footer -->
-<footer class="footer well">
+<footer class="footer">
 <div class="container ">
  <?php 
      include('footer.php') ?>

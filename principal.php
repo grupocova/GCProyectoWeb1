@@ -89,8 +89,8 @@
     <div class="row-fluid">
       <!--<h5 class="well well-small">Anuncios</h5>-->      
       <div id="myCarousel2" class="span12 panel carousel slide">    
-        <div class="carousel-inner anuncios">
-          <div class="item active contenedor">
+        <div class="carousel-inner">
+          <div class="item active contenedor  anuncios">
             <ul class="thumbnails">
               <li class="span4">
                 <div class="thumbnail">
@@ -169,9 +169,8 @@
      
      <div class="tabbable" style="margin-bottom: 18px;"> <!-- tabbable -->
         <ul class="nav nav-tabs">
-          <li class="active"><a href="#tab1" data-toggle="tab">Ingresar</a></li>
+          <li class="active"><a href="#tab1" data-toggle="tab">Campus Virtual</a></li>
           <li><a href="#tab2" data-toggle="tab">Sociales</a></li>
-          <li><a href="#tab3" data-toggle="tab">Multi</a></li>
         </ul>
         <div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
           <div class="tab-pane active" id="tab1">
@@ -202,10 +201,7 @@
           </div>
           <div class="tab-pane" id="tab2">
             <p>Howdy, I'm in Section 2.</p>
-          </div>
-          <div class="tab-pane" id="tab3">
-            <p>What up girl, this is Section 3.</p>
-          </div>
+          </div>          
         </div>
       </div> <!-- /tabbable -->
      
@@ -216,7 +212,7 @@
     <div class="row-fluid">
     <div class="span12">
      <!--<h4 class="well well-small">Facebook</h4> -->      
-     <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FEscuela-de-Posgrado%2F116599288362792&amp;width=500&amp;height=395&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;border_color&amp;header=false&amp;appId=149531818553989" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:450px;" allowTransparency="true"></iframe>
+     <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FEscuela-de-Posgrado%2F116599288362792&amp;width=500&amp;height=395&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;border_color&amp;header=false&amp;appId=149531818553989" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:430px;" allowTransparency="true"></iframe>
     </div>
     </div>    
   </div><!--Fin span3-------------------------------->

@@ -59,43 +59,40 @@
   </div>
   <!--Fin Logo, buscador, fecha--------------------------------->  
 </div>
-<div class="navprin">
-   <div class="container">    
-     <div class="row-fluid">              
-       <div class="span12"> 
-       
-     <div class="navbar navbar-inverse nav-just">
-        <div class="navbar-inner"> 
-                 
+
+<div class="container">    
+ <div class="row-fluid">              
+   <div class="span12"> 
+      
+     <div class="navbar  navbar-inverse  navprin">
+        <div class="navbar-inner">                      
             <ul class="nav">
               <?php
-				$consulta1 = mysql_query ('select id,titulo from bdwebcova.contenido where orden="1"', $conexion);
-				$nfilas1=mysql_num_rows ($consulta1);
-				
-				if($nfilas1>0)
-				{
-					for ($i=0; $i<$nfilas1; $i++)
-				  {
-					  $fila1 = mysql_fetch_array ($consulta1);
-					  print '<li class="dropdown">
-							  <a class="dropdown-toggle" data-toggle="dropdown" href="#">'.$fila1['titulo'].'<b class="caret"></b></a>
-							  <ul class="dropdown-menu">
-								<li><a href="#">Campus Virtual</a></li>
-								<li><a href="#">Mapa del Sitio</a></li>
-							  </ul>
-							 </li>';
-				  }
-				}
-			  ?>
+                $consulta1 = mysql_query ('select id,titulo from bdwebcova.contenido where orden="1"', $conexion);
+                $nfilas1=mysql_num_rows ($consulta1);
+                
+                if($nfilas1>0)
+                {
+                    for ($i=0; $i<$nfilas1; $i++)
+                  {
+                      $fila1 = mysql_fetch_array ($consulta1);
+                      print '<li class="dropdown">
+                              <a class="dropdown-toggle" data-toggle="dropdown" href="#">'.$fila1['titulo'].'<b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Campus Virtual</a></li>
+                                <li><a href="#">Mapa del Sitio</a></li>
+                              </ul>
+                             </li>';
+                  }
+                }
+              ?>
             </ul>
-          <!--</div>-->
-          </div>
-          </div>
-          
         </div>
-      </div><!-- /.navbar -->
- </div>   
- </div>
+      </div> <!-- /.navbar -->
+               
+   </div>
+  </div>
+</div>   
 
 
 
