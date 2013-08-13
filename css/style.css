@@ -1,0 +1,186 @@
+/*
+ * Web Posgrado UPeU
+ *
+ * Copyright Grupocova, 
+ *
+ */
+
+/*Estilos Generales*/
+body{
+  padding-top: 50px;
+  background: #fff;
+}
+
+.contenido {  
+  padding: 0 10px;
+}
+
+.panel .title{
+  padding: 5px 6px;
+  font-size: 12pt;
+  border-bottom:1px solid rgba(119, 16, 42, 0.2);
+/*  -webkit-box-shadow: 0 0 10px 0 rgba(119, 16, 42, 0.5);
+     -moz-box-shadow: 0 0 10px 0 rgba(119, 16, 42, 0.5);
+          box-shadow: 0 0 10px 0 rgba(119, 16, 42, 0.5);*/
+}
+
+#wepg-principal{
+  margin-top: 10px;
+}
+
+#wepg-principal .row{
+  margin-bottom: 10px;
+}
+#wepg-principal .panel{
+  margin-bottom: 0;
+}
+
+#wepg-principal .panel .panel-heading{
+  font-size: 14pt;
+  font-weight: bold;
+  color: #fff;
+  background: -webkit-linear-gradient(#7c7c7c, #646363);
+  background: -moz-linear-gradient(#7c7c7c, #646363);
+  background: -o-linear-gradient(#7c7c7c, #646363);
+  
+}
+
+/*Estilos de componentes de la web*/
+/*Header*/
+.wepg-header{
+  padding: 10px 10px;
+  padding-bottom: 0px;
+  background: #9B0000;
+  background: -webkit-linear-gradient(#9B0000, #480000);
+  background: -moz-linear-gradient(#9B0000, #480000);
+  background: -o-linear-gradient(#9B0000, #480000);
+}
+#wepg-encabezado{
+  padding: 20px 0;
+}
+
+.icosocial ul{
+  list-style-type:none;
+  list-style-position:inherit;
+  margin-right:10px;
+}
+.icosocial li{
+  display:inline-block;
+  float:right;
+  margin:0 0 0 15px;
+}
+.icosocial a{
+  display:block;
+  width:30px;
+  height:30px;
+  background-image:url(../img/icoSociales4.png);
+}
+.icosocial a span{
+  display:none; 
+}
+.icosocial #face{background-position:0 0}
+.icosocial #twit{background-position:-35px 0}
+.icosocial #you{background-position:-70px 0}
+.icosocial #gog{background-position:-105px 0}
+
+.icosocial #face:hover{background-position:0 30px}
+.icosocial #twit:hover{background-position:-35px 30px}
+.icosocial #you:hover{background-position:-70px 30px}
+.icosocial #gog:hover{background-position:-105px 30px}
+
+
+/*navegacion principal */
+.wepg-nav-main{
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.wepg-nav-main ul li a{
+  font-size: medium;
+  font-weight: bold;  
+}
+
+
+
+
+/*Eventos*/
+
+.idate{
+  width: 50px;
+  height:60px;
+  border: 1px solid #9B0000;
+  border-radius: 6px;
+  background: #fff;
+}
+.idate-month{  
+  text-align: center;
+  font-size: 10pt;
+  font-weight: bold;
+  color: #fff;
+  padding: 2px 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #9B0000;
+}
+
+.idate-day{  
+  text-align: center;
+  font-size: 15pt;
+  font-weight: bolder;
+  padding: 4px 4px 2px 4px;
+  background: #fff;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#wepg-eventos{
+  min-height: 350px;  
+}
+
+#wepg-eventos a{
+  color: #000;
+  text-decoration: none;  
+}
+
+/*Noticias*/
+#wepg-noticia{
+  min-height: 350px;
+}
+
+/*extras*/
+
+#wepg-extra{
+  min-height: 350px;
+}
+
+#wepg-publi{
+  min-height: 300px;
+  max-height: 300px;
+}
+
+/*promociones*/
+
+#wepg-promo{
+  min-height: 300px;
+  max-height: 300px;
+}
+
+/*footer*/
+#wepg-footer{
+  padding: 30px 0;
+  border-top: 1px solid #e5e5e5;
+  background: -webkit-linear-gradient(#212121, #161616);
+  background: -moz-linear-gradient(#212121, #161616);
+  background: -o-linear-gradient(#212121, #161616);
+}
+#wepg-footer > ul{
+  list-style-position:inherit;
+  list-style-type: none;
+}
+
+#wepg-footer > ul >li{
+  display: table-column;
+}
+
+
