@@ -11,6 +11,7 @@
 
 <!-- css amazingcarousel -->
 <link rel="stylesheet" type="text/css" href="amcarousel/css/initcarousel-1.css">
+<link rel="stylesheet" type="text/css" href="amcarousel/css/initcarousel-2.css">
 
 <!-- css web -->
 <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -51,5 +52,6 @@
 <!-- js amazing carousel -->
 <script src="amcarousel/js/amazingcarousel.js"></script>   
 <script src="amcarousel/js/initcarousel-1.js"></script>
+<script src="amcarousel/js/initcarousel-2.js"></script>
 </body>
 </html>
