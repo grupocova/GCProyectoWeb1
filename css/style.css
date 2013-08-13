@@ -15,9 +15,15 @@ body{
   padding: 0 10px;
 }
 
-.panel .panel-heading{
-  
+.panel .title{
+  padding: 5px 6px;
+  font-size: 12pt;
+  border-bottom:1px solid rgba(119, 16, 42, 0.2);
+/*  -webkit-box-shadow: 0 0 10px 0 rgba(119, 16, 42, 0.5);
+     -moz-box-shadow: 0 0 10px 0 rgba(119, 16, 42, 0.5);
+          box-shadow: 0 0 10px 0 rgba(119, 16, 42, 0.5);*/
 }
+
 #wepg-principal{
   margin-top: 10px;
 }
@@ -104,7 +110,7 @@ body{
   width: 50px;
   height:60px;
   border: 1px solid #9B0000;
-  border-radius: 7px;
+  border-radius: 6px;
   background: #fff;
 }
 .idate-month{  
@@ -113,10 +119,9 @@ body{
   font-weight: bold;
   color: #fff;
   padding: 2px 0;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   background: #9B0000;
-
 }
 
 .idate-day{  
@@ -125,33 +130,28 @@ body{
   font-weight: bolder;
   padding: 4px 4px 2px 4px;
   background: #fff;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
+
 #wepg-eventos{
-  min-height: 300px;
+  min-height: 350px;  
 }
-.event{
-  padding-bottom: 10px;
+
+#wepg-eventos a{
+  color: #000;
+  text-decoration: none;  
 }
-.event .event-cont{
-  font-size: 10pt;
-}
-.event .event-heading{
-  font-size: 10pt;
-  font-weight: bold;
-}
-.event .idate{
-  float: left;
-  margin-right:10px;
-}
+
 /*Noticias*/
 #wepg-noticia{
-  min-height: 300px;
+  min-height: 350px;
 }
 
 /*extras*/
 
 #wepg-extra{
-  min-height: 300px;
+  min-height: 350px;
 }
 
 #wepg-publi{

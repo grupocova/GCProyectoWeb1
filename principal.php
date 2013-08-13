@@ -2,27 +2,75 @@
 <div class="row">
   <!--calendario - eventos-->
   <div class="col-lg-3 panel" id="wepg-eventos">
-    <div class="panel-heading">Eventos
-      <div class="pull-right">
-        <a href="#"><span class="badge">+</span></a> 
-        <a href="#"><span class="badge">-</span></a> 
-      </div>    
-    </div>
-    <div class="event">
-      <div class="idate">
-        <div class="idate-month">Abril</div>
-        <div class="idate-day">18</div>
+    <div class="title">Agenda</div>
+    <div id="amazingcarousel-1">
+      <div class="amazingcarousel-list-container" style="">
+        <ul class="amazingcarousel-list">
+
+          <li class="amazingcarousel-item">
+            <div class="amazingcarousel-item-container">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <div class="idate media-object">
+                    <div class="idate-month">Feb</div>
+                    <div class="idate-day">19</div>
+                  </div>
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading">Media heading</h4>
+                  Cras sit amet nibh libero, in gravida nulla.
+                </div>
+              </div>            
+            </div>            
+            <div style="clear:both;"></div>    
+          </li>
+
+          <li class="amazingcarousel-item">
+            <div class="amazingcarousel-item-container">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <div class="idate media-object">
+                    <div class="idate-month">Abr</div>
+                    <div class="idate-day">21</div>
+                  </div>
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading">Media heading</h4>
+                  Cras sit amet nibh libero, in gravida nulla.
+                </div>
+              </div>            
+            </div>            
+            <div style="clear:both;"></div>    
+          </li>
+
+          <li class="amazingcarousel-item">
+            <div class="amazingcarousel-item-container">
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <div class="idate media-object">
+                    <div class="idate-month">Oct</div>
+                    <div class="idate-day">30</div>
+                  </div>
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading">Media heading</h4>
+                  Cras sit amet nibh libero, in gravida nulla.
+                </div>
+              </div>            
+            </div>            
+            <div style="clear:both;"></div>    
+          </li>          
+        </ul>
       </div>
-      <div class="event-cont">
-        <h4 class="event-heading">Seminario Internacional de Oracle</h4>
-        <a>El dia martes se...</a>
-      </div>            
+      <div class="amazingcarousel-prev"></div>
+      <div class="amazingcarousel-next"></div>
+    </div>
+<!-- End of body section HTML codes -->
   </div>
-</div>
 
   <!--Noticias-->
   <div class="col-lg-6 panel" id="wepg-noticia">
-    <div class="panel-heading ">Noticias</div> 
+    <div class="">Noticias</div> 
     <div class="media">
       <a class="pull-left" href="#">
         <img class="media-object" data-src="holder.js/150x90">
@@ -35,7 +83,7 @@
   </div>
 
   <!--extra-->
-  <div class="col-lg-3 panel" id="wepg-extra">
+  <div class="col-lg-3" id="wepg-extra">
     <ul id="myTab" class="nav nav-tabs md-tab-nav">
       <li class="active"><a href="#tag1" data-toggle="tab">Social</a></li>
       <li><a href="#tag2" data-toggle="tab">Multimedia</a></li>      
@@ -59,7 +107,7 @@
 </div><!--Fin row-->
 
 <div class="row">
-  <div class="col-lg-9 panel" id="wepg-publi">
+  <div class="col-lg-9" id="wepg-publi">
     <div class="row">
       <div class="col-lg-3">
         <div class="thumbnail">
@@ -72,8 +120,8 @@
       </div>
     </div>    
   </div>
-  <div class="col-lg-3 panel" id="wepg-promo">
-    <div class="panel-heading">Promociones</div>
+  <div class="col-lg-3" id="wepg-promo">
+    <div class="">Promociones</div>
     <img class="media-object" data-src="holder.js/100%x210">
   </div>
 </div><!--Fin row-->

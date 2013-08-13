@@ -3,10 +3,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>EPG | Escuela de Posgrado</title>
+
+<!-- css bootstrap -->
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-glyphicons.css" />
+
+<!-- css amazingcarousel -->
+<link rel="stylesheet" type="text/css" href="amcarousel/css/initcarousel-1.css">
+
+<!-- css web -->
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
 </head>
 <body>
 
@@ -34,10 +42,14 @@
      include('footer.php') ?>
 </footer>
 
-
+<!-- js generales -->
 <script src="js/jquery.js"></script>
-<script src="bootstrap/js/bootstrap.js"></script>
 <script src="js/holder.js"></script>
-
+<!-- js bootstrap -->
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- js amazing carousel -->
+<script src="amcarousel/js/amazingcarousel.js"></script>   
+<script src="amcarousel/js/initcarousel-1.js"></script>
 </body>
 </html>
