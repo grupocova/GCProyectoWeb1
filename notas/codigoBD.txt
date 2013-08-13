@@ -1,0 +1,87 @@
+create database bdWebcova
+
+create table(id varchar(20), titulo varchar(100), resumen varchar(500), texto varchar(500), img varchar(200), fecha date, estado boolean)
+
+insert into bdwebcova.noticias (id,titulo,resumen,texto,img,fecha,estado) 
+values("03", "Inglaterra: adolescente sufre de ataque de hipo hace 10 semanas", 
+"Emily Marsh tiene 13 años y su caso sorprende a los médicos ingleses. Tiene contracciones cada dos segundos...",
+"Emily Marsh tiene 13 años y su caso sorprende a los médicos ingleses. Tiene contracciones cada dos segundos mas",
+"fotos/noticia08.04.2013.png",curdate(),true)
+
+---
+
+create table bdwebcova.agenda(id varchar(20), titulo varchar(100), descrip varchar(500),
+img varchar(200),estado boolean, fecha date)
+
+insert into bdwebcova.agenda (id,titulo,descrip,img,estado,fecha) 
+values("01", "Maestría en Enfermería", "Inscripción ","",true,"2013/05/04")
+
+insert into bdwebcova.agenda (id,titulo,descrip,img,estado,fecha) 
+values("02", "Diplomado en Gestión y Evaluación de Proyectos de TI
+", "Inscripción ","",true,"2013/03/10")
+
+insert into bdwebcova.agenda (id,titulo,descrip,img,estado,fecha) 
+values("03", "Maestria en Administración de Negocios", "Inscripción ","",true,"2013/12/05")
+
+-----CREACION DE LA NAVEGACION----
+
+create table bdwebcova.contenido(id varchar(20), titulo varchar(100), 
+descripcion varchar(500), orden varchar(1), estado boolean)
+
+
+
+insert into bdwebcova.contenido(id,titulo,descripcion,orden,estado) 
+values("01", "EPG", "Escuela de Posgrado de la Universidad Peruana Unión",
+"1",true)
+
+insert into bdwebcova.contenido(id,titulo,descripcion,orden,estado) 
+values("02", "Diplomados", "Diplomados que ofrece la EPG UPeU",
+"1",true)
+
+insert into bdwebcova.contenido(id,titulo,descripcion,orden,estado) 
+values("03", "Maestrias", "Maestrias que ofrece la EPG UPeU",
+"1",true)
+
+insert into bdwebcova.contenido(id,titulo,descripcion,orden,estado) 
+values("04", "Doctorados", "Doctorados que ofrece la EPG UPeU",
+"1",true)
+
+insert into bdwebcova.contenido(id,titulo,descripcion,orden,estado) 
+values("05", "Informes", "Doctorados que ofrece la EPG UPeU",
+"1",true)
+
+insert into bdwebcova.contenido(id,titulo,descripcion,orden,estado) 
+values("08", "Especialidades", "Especialidades de la Universidad Peruana Union",
+"1",true) 
+
+
+insert into bdwebcova.contenido(id,titulo,descripcion,orden,estado) 
+values("06", "Misión y Visión", "La mision de la escuela de posgrado",
+"2",true)
+
+insert into bdwebcova.contenido(id,titulo,descripcion,orden,estado) 
+values("07", "Presentación", "La Escual de Posgrado de la Universidad Peruana Unión",
+"2",true)
+
+
+create table bdwebcova.relcontenido (id_pral varchar(20), id_sub varchar(20))
+
+insert into bdwebcova.relcontenido (id_pral, id_sub) values ("01","06")
+
+insert into bdwebcova.relcontenido (id_pral, id_sub) values ("01","07")
+
+
+-----
+
+create table bdwebcova.anuncio (id varchar(20), titulo varchar(100), 
+descripcion varchar(500), img varchar(200), estado boolean)
+
+insert into bdwebcova.anuncio (id, titulo, descripcion, img, estado) values
+("01","Inscripci&oacuten Online","Del 14 al 30 de mayo", "fotos/anun1_ins.png", "1")
+
+insert into bdwebcova.anuncio (id, titulo, descripcion, img, estado) values
+("02","Ceremonia de graduaci&oacuten"," 25 de agosto del 2013", "fotos/anun1_ins.png", "1")
+
+insert into bdwebcova.anuncio (id, titulo, descripcion, img, estado) values
+("03","Estanteria de Materiales","Materiales de estudio en formato digital",
+ "fotos/anun1_ins.png", "1")

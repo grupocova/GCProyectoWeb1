@@ -1,39 +1,44 @@
-  <div class="row-fluid">
-  <div class="span12 navinf">
-     <ul class="">
-        <li class="span3"><a href="#">ESPECIALIDADES</a>
-          <ul>
-            <li><a href="#">En enfermería</a></li>
-          </ul>
-        </li>   
-        <li class="span3"><a href="#">DIPLOMADOS</a>
-          <ul>
-            <li><a href="#">Bussines Process Managment</a></li>
-            <li><a href="#">Gestion y evaluacion de proyectos de TI</a></li>
-            <li><a href="#">Autoridades</a></li>
-          </ul>
-        </li>  
-        <li class="span3"><a href="#">MAESTRIAS</a>
-          <ul>
-            <li><a href="#">Administracion de negocios</a></li>
-            <li><a href="#">Ciencias de la Familia</a></li>
-            <li><a href="#">Enfermeria</a></li>
-            <li><a href="#">Educacion</a></li>
-            <li><a href="#">Ingenieria de sistemas</a></li>
-            <li><a href="#">Salud Publica</a></li>
-            <li><a href="#">Teologia</a></li>
-          </ul>
-        </li>  
-         <li class="span3"><a href="#">DOCTORADOS</a>
-          <ul>
-            <li><a href="#">Administracion</a></li>
-            <li><a href="#">Educacion</a></li>
-            <li><a href="#">Teologia</a></li>
-          </ul>
-        </li>   
-      </ul>
-   </div>
-  </div>  
+<div class="contenido container">
+  <div class="row">
+
+  <div class="col-lg-3">
+    <div>
+    <h3>Uno</h3>
+
+      <ul class="">
+
+      <li>sad</li>
+      <li>sadsad</li>    
+    </ul>
+    </div>
+  </div>
+
+  <div class="col-lg-3">
+    <div>
+    <h3>Uno</h3>
+
+      <ul class="">
+
+      <li>sad</li>
+      <li>sadsad</li>    
+    </ul>
+    </div>
+  </div>
+
+  <div class="col-lg-3">
+    <div>
+    <h3>Uno</h3>
+
+      <ul class="">
+
+      <li>sad</li>
+      <li>sadsad</li>    
+    </ul>
+    </div>
+  </div>
+
+  </div> 
+</div> 
   
   
   <!--<div class="row-flow">
