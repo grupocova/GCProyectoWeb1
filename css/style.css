@@ -155,14 +155,14 @@ body{
 }
 
 #wepg-publi{
-  min-height: 300px;
-  max-height: 300px;
+  min-height: 230px;
+  max-height: 350px;
 }
 
 /*promociones*/
 
 #wepg-promo{
-  min-height: 350px;
+  min-height: 230px;
 }
 
 /*footer*/

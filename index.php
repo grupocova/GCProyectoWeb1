@@ -9,9 +9,10 @@
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-glyphicons.css" />
 
-<!-- css amazingcarousel -->
-<link rel="stylesheet" type="text/css" href="amcarousel/css/initcarousel-1.css">
-
+<!-- css amazingcarousel-slider -->
+<link rel="stylesheet" type="text/css" href="amazing/css/initcarousel-1.css">
+<link rel="stylesheet" type="text/css" href="amazing/css/initcarousel-2.css">
+<link rel="stylesheet" type="text/css" href="amazing/css/initslider-1.css"> 
 <!-- css web -->
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 
@@ -49,7 +50,10 @@
 <script src="bootstrap/js/bootstrap.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <!-- js amazing carousel -->
-<script src="amcarousel/js/amazingcarousel.js"></script>   
-<script src="amcarousel/js/initcarousel-1.js"></script>
+<script src="amazing/js/amazingcarousel.js"></script>   
+<script src="amazing/js/initcarousel-1.js"></script>
+<script src="amazing/js/initcarousel-2.js"></script>
+<script src="amazing/js/amazingslider.js"></script> 
+<script src="amazing/js/initslider-1.js"></script>
 </body>
 </html>

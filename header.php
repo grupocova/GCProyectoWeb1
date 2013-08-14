@@ -23,13 +23,8 @@
     </ul>      
     <ul class="nav navbar-nav pull-right">       
       <li>
-        <form class="navbar-form pull-left" action="#">         
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Busqueda">
-            <span class="input-group-btn">
-              <button class="btn btn-default" type="button">Go!</button>
-            </span>      
-          </div><!-- /input-group -->
+        <form class="navbar-form" action="#">  
+            <input type="text" class="form-control" placeholder="Busqueda">            
         </form>
       </li>      
     </ul>
@@ -71,6 +66,7 @@
   </div>
 
   <!-- Fin Navegacion --> 
+</div>
 </div>
 
 
