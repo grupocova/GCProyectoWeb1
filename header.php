@@ -12,21 +12,26 @@
     <ul class="nav navbar-nav">
       <li><a href="#">Inicio</a></li>
       <li><a href="#">Campus Virtual</a></li>
-      <li><a href="#">Mapa del sitio</a></li>               
-    </ul>      
-    <ul class="nav navbar-nav pull-right">       
-      <li>
-        <form class="navbar-form pull-left" action="#">
-            <input type="text" class="form-control col-lg-8" placeholder="Busqueda">
-        </form>
-      </li>
+      <li><a href="#">Mapa del sitio</a></li> 
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Idioma <b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="#">ES Español</a></li>
           <li><a href="#">IN Ingles</a></li>
         </ul>
-      </li>
+      </li>              
+    </ul>      
+    <ul class="nav navbar-nav pull-right">       
+      <li>
+        <form class="navbar-form pull-left" action="#">         
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Busqueda">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">Go!</button>
+            </span>      
+          </div><!-- /input-group -->
+        </form>
+      </li>      
     </ul>
   </div><!--/.nav-collapse -->
 </div>

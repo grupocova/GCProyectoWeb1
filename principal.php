@@ -120,44 +120,9 @@
       </div>
     </div>    
   </div>
+
   <div class="col-lg-3 panel" id="wepg-promo">
     <div class="">Promociones</div>
-      <div id="amazingcarousel-2" >
-        <div class="amazingcarousel-list-container">
-            <ul class="amazingcarousel-list">
-              <li class="amazingcarousel-item">
-                <div class="amazingcarousel-item-container">
-                  <div class="amazingcarousel-image"><a href="images/iconmonstr-edit-9-icon-lightbox.png" title="iconmonstr-edit-9-icon"  class="html5lightbox" data-group="amazingcarousel-2">
-                    <img data-src="holder.js/95%x235"  alt="iconmonstr-edit-9-icon" /></a></div>
-                    <a href="#">Mas informacion</a>
-                  <div class="amazingcarousel-description"></div>                   
-                </div>
-              </li>
-
-              <li class="amazingcarousel-item">
-                <div class="amazingcarousel-item-container">
-                  <div class="amazingcarousel-image"><a href="images/paisaje.jpg" title="iconmonstr-edit-9-icon"  class="html5lightbox" data-group="amazingcarousel-2">
-                    <img src="images/paisaje.jpg"  alt="paisaje" /></a></div>
-                    <a href="#">Mas informacion</a>
-                  <div class="amazingcarousel-description"></div>                   
-                </div>
-              </li> 
-
-              <li class="amazingcarousel-item">
-                <div class="amazingcarousel-item-container">
-                  <div class="amazingcarousel-image"><a href="images/iconmonstr-edit-9-icon-lightbox.png" title="iconmonstr-edit-9-icon"  class="html5lightbox" data-group="amazingcarousel-2">
-                    <img src="images/icon.png"  alt="iconmonstr-edit-9-icon" /></a></div>
-                    <a href="#">Mas informacion</a>
-                  <div class="amazingcarousel-description"></div>                   
-                </div>
-              </li>  
-
-            </ul>            
-        </div>
-        <div class="amazingcarousel-prev"></div>
-        <div class="amazingcarousel-next"></div>
-        <div class="amazingcarousel-nav"></div>
-        <div class="amazingcarousel-engine" style="display:none;"><a href="http://amazingcarousel.com">jQuery Carousel</a></div>
-    </div>
+      
   </div>
 </div><!--Fin row-->
