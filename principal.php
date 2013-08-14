@@ -71,7 +71,24 @@
   <!--Noticias-->
   <div class="col-lg-6 panel" id="wepg-noticia">
     <div class="">Anuncios secundarios</div>
-    
+    <div id="mySlider" class="evoslider default"> <!-- start evo slider -->
+    <dl>    
+      <dt>slide one</dt>
+      <dd>
+         <img src="images/paisaje.jpg" alt="paisaje" />              
+      </dd>
+  
+      <dt>slide two</dt>
+      <dd>
+         <img src="images/paisajes_preciosos10.jpg" alt="paisajes_preciosos10" />                     
+      </dd>
+  
+      <dt>slide three</dt>
+      <dd>          
+         <img src="images/slide01.jpg" alt="slide01" />     
+      </dd>       
+    </dl>
+</div> <!-- end evo slider -->
            
   </div>
 
