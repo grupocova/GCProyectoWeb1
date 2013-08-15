@@ -82,7 +82,7 @@ EvoSlider.prototype = {
                 
         
         if ( o.width <= 0 ) {
-            o.width = 960;
+            o.width=o.width
         }
         
         if ( o.height <= 0 ) {

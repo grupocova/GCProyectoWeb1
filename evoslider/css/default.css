@@ -27,13 +27,12 @@ TABLE OF CONTENTS
 .evoslider.default
 {
 	position: relative;
-	width :960px; /* set width via option */
+	width :100%; /* set width via option */
 	height :360px; /* set height via option */
     margin: 0 auto;
-	border: 10px solid #fafafa;
 	padding: 5px;
-	background :#4e4e4e;
-	overflow : visible ;
+	background :#045;
+	
 	
 	/* shadow */
 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.2);

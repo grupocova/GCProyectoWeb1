@@ -63,8 +63,8 @@
             
     $("#mySlider").evoSlider({
         mode: "slider",                  // Sets slider mode ("accordion", "slider", or "scroller")
-        // width: 960,                         // The width of slider
-        height: 360,                        // The height of slider
+        // width: 400,                         // The width of slider
+        // height: 100,                        // The height of slider
         slideSpace: 5,                      // The space between slides
     
         mouse: true,                        // Enables mousewheel scroll navigation
