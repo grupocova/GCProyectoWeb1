@@ -48,7 +48,6 @@ body{
 /*Estilos de componentes de la web*/
 /*Header*/
 .wepg-header{
-  padding: 10px 10px;
   padding-bottom: 0px;
   background: #9B0000;
   background: -webkit-linear-gradient(#9B0000, #480000);
@@ -95,7 +94,16 @@ body{
   margin-left: 0;
   margin-top: 10px;
   margin-bottom: 0;
+  padding: 0;
 }
+
+.wepg-nav-main ul{ 
+}
+
+.wepg-nav-main ul li{
+}
+
+
 .wepg-nav-main ul li a{
   font-size: medium;
   font-weight: bold;  

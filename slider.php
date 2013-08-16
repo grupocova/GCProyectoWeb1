@@ -1,5 +1,5 @@
 
-<div id="carousel-example-generic" class="row carousel slide bs-docs-carousel-example">
+<div id="carousel-example-generic" class="row carousel slide">
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>

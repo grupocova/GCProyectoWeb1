@@ -3,36 +3,47 @@
 
   <div class="col-lg-3">
     <div>
-    <h3>Uno</h3>
+    <h3>Especialidades</h3>
+      <ul class="">
+       <li><a>en enfermeria</a></li>    
+      </ul>
+    <h3>Diplomados</h3>
 
       <ul class="">
 
-      <li>sad</li>
-      <li>sadsad</li>    
+      <li><a>Estadistica Aplicada</a></li>
+      <li><a>Seguridad Industrial</a></li> 
+      <li><a>Bussines process Management</a></li>     
     </ul>
     </div>
   </div>
 
   <div class="col-lg-3">
     <div>
-    <h3>Uno</h3>
+    <h3>Maestrias</h3>
 
       <ul class="">
 
-      <li>sad</li>
-      <li>sadsad</li>    
+      <li><a>Administracion de Negocios</a></li>
+      <li><a>Ciencias de la Familia</a></li>
+      <li><a>Enfermeria</a></li>  
+      <li><a>Educación</a></li>  
+      <li><a>Ingenieria de sistemas</a></li>
+      <li><a>Salud Pública</a></li>  
+      <li><a>Teología</a></li>        
     </ul>
     </div>
   </div>
 
   <div class="col-lg-3">
     <div>
-    <h3>Uno</h3>
+    <h3>Doctorados</h3>
 
       <ul class="">
 
-      <li>sad</li>
-      <li>sadsad</li>    
+      <li><a>Administracion</a></li>
+      <li><a>Educación</a></li>
+      <li><a>Teología</a></li>        
     </ul>
     </div>
   </div>

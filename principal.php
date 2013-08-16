@@ -71,7 +71,30 @@
   <!--Noticias-->
   <div class="col-lg-6 panel" id="wepg-noticia">
     <div class="">Anuncios secundarios</div>
-    
+      <div id="slider2" class="row carousel slide">
+        <ol class="carousel-indicators">
+          <li data-target="#slider2" data-slide-to="0" class="active"></li>
+          <li data-target="#slider2" data-slide-to="1"></li>
+          <li data-target="#slider2" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="fotos/slide01.png" alt="">
+          </div>
+          <div class="item">
+            <img src="fotos/slide02.png" alt="">
+          </div>
+          <div class="item">
+            <img src="fotos/slide03.png" alt="">
+          </div>
+        </div>
+        <a class="left carousel-control" href="#slider2" data-slide="prev">
+          <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#slider2" data-slide="next">
+          <span class="icon-next"></span>
+        </a>
+      </div>
            
   </div>
 
