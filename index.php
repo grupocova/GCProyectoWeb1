@@ -33,7 +33,7 @@
 </div>
 
 <!-- principal -->
-<div class=" contenido container" id="wepg-principal">
+<div class="contenido container" id="wepg-principal">
  <?php 
      include('principal.php') ?>
 </div>

@@ -13,20 +13,20 @@ body{
 
 .contenido {  
   padding: 0 10px;
+  height: 100%;
 }
-
 
 .wepg-panel{
   /*border: 1px solid #fff;*/
   padding: 10px;
   /*border: 1px solid #000;*/
-  border: none;
+  *border: none;
 }
 .wepg-panel .title{  
   font-family: verdana;
   font-size: 11pt;
   font-weight: bold;;
-  color: #9B0000;
+  color: #a3a2a2;
   padding: 0 3px 5px 3px;
   margin-bottom: 5px;
   border-bottom:1px solid rgba(119, 16, 42, 0.2);
@@ -89,8 +89,10 @@ body{
 
 
 .wepg-nav-main ul li a{
-  font-size: medium;
-  font-weight: bold;  
+  font-family: arial;
+  font-size: 11pt;
+  font-weight: bold; 
+  text-transform: uppercase; 
 }
 
 
@@ -192,20 +194,43 @@ body{
   background: -moz-linear-gradient(#212121, #161616);
   background: -o-linear-gradient(#212121, #161616);
 }
-#wepg-footer > ul{
+
+#wepg-footer h1{
+  font-size: 13.5pt;
+  font-weight:normal;
+  color: #993434;
+}
+#wepg-footer .wepg-navinf ul{
   list-style-position:inherit;
   list-style-type: none;
+  padding: 0;
 }
 
-#wepg-footer > ul >li{
-  display: table-column;
+#wepg-footer .wepg-navinf ul li{
+  display:inherit;  
+  padding-bottom: 10px;
+  margin-left: 10px;
 }
-.icono i{
-  height: 30px;
-  width: 30px;
-  background-image: url(../img/iconos.png);
+
+#wepg-footer .wepg-navinf ul li a{
+  color: #a3a2a2;
 }
-.icono #ico-reloj{background-position:0 0}
+
+#wepg-footer .wepg-moreinf h1{
+  font-size: 12pt;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#wepg-footer .wepg-moreinf p{
+  font-size: 10pt;
+  color: #a3a2a2;
+}
+
+#wepg-footer .wepg-moreinf .icosocial{
+  border-bottom: 1px solid #1f1d1d;
+}
+
 
 .icosocial ul{
   list-style-type:none;
@@ -215,23 +240,34 @@ body{
 .icosocial li{
   display:inline-block;
   margin:0 0 0 15px;
-  background: #fff;
 }
 .icosocial a{
   display:block;
-  width:30px;
-  height:30px;
+  width:40px;
+  height:40px;
+  background-color: transparent;
   background-image:url(../img/icosociales.png);
 }
 .icosocial a span{
   display:none; 
 }
 .icosocial #face{background-position:0 0}
-.icosocial #twit{background-position:-35px 0}
-.icosocial #you{background-position:-70px 0}
-.icosocial #gog{background-position:-105px 0}
+.icosocial #gog{background-position:-40px 0}
+.icosocial #twit{background-position:-80px 0}
+.icosocial #you{background-position:-120px 0}
 
-.icosocial #face:hover{background-position:0 30px}
-.icosocial #twit:hover{background-position:-35px 30px}
-.icosocial #you:hover{background-position:-70px 30px}
-.icosocial #gog:hover{background-position:-105px 30px}
+
+.icosocial #face:hover{background-position:0 40px}
+.icosocial #gog:hover{background-position:-40px 40px}
+.icosocial #twit:hover{background-position:-80px 40px}
+.icosocial #you:hover{background-position:-120px 40px}
+
+
+.icono div{
+  height: 30px;
+  width: 30px;
+  background-image: url(../img/iconos.png);
+}
+.icono #ico-reloj{background-position:0 0}
+.icono #ico-mail{background-position:-30px 0}
+.icono #ico-telf{background-position:-60px 0}
