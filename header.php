@@ -40,15 +40,8 @@
       <a class="pull-left" href="#">
         <img class="media-object" src="img/logo_posgrado.png">
       </a>
-      <div class="icosocial pull-right">
-        <ul>        
-          <li><a href="#" id="gog"><span>Google +</span></a></li>
-          <li><a href="#" id="you"><span>Youtube</span></a></li>
-          <li><a href="#" id="twit"><span>Twitter</span></a></li>        
-          <li><a href="#" id="face"><span>Facebook</span></a></li>        
-        </ul> 
-        <h5 class=""><i class="icon-calendar"></i> Lima, 16 de Abril del 2013</h5>
-           
+      <div class="pull-right icono">        
+        <h5 class=""> <i id="ico-reloj"></i>Lima, 19 de Agosto del 2013 </h5>            
       </div>
     </div>
   </div><!-- Fin Encabezado -->

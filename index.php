@@ -12,7 +12,7 @@
 <!-- css amazingcarousel-slider -->
 <link rel="stylesheet" type="text/css" href="amazing/css/initcarousel-1.css">
 <link rel="stylesheet" type="text/css" href="amazing/css/initcarousel-2.css">
-
+<link rel="stylesheet" type="text/css" href="amazing/css/initcarousel-3.css">
 <!-- css evoslider --> 
 <!-- css web -->
 <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -54,6 +54,7 @@
 <script src="amazing/js/amazingcarousel.js"></script>   
 <script src="amazing/js/initcarousel-1.js"></script>
 <script src="amazing/js/initcarousel-2.js"></script>
+<script src="amazing/js/initcarousel-3.js"></script>
 <!-- js evoslider -->
 
 

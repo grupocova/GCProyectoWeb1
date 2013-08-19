@@ -3,7 +3,7 @@ jQuery(document).ready(function(){
     var jsFolder = "";
     for (var i= 0; i< scripts.length; i++)
     {
-        if( scripts[i].src && scripts[i].src.match(/initcarousel-1\.js/i))
+        if( scripts[i].src && scripts[i].src.match(/initcarousel-3\.js/i))
             jsFolder = scripts[i].src.substr(0, scripts[i].src.lastIndexOf("/") + 1);
     }
     if ( typeof html5Lightbox === "undefined" )
@@ -13,25 +13,27 @@ jQuery(document).ready(function(){
             jsfolder:jsFolder
         });
     }
-    jQuery("#amazingcarousel-1").amazingcarousel({
-        jsfolder:jsFolder,  
+    jQuery("#amazingcarousel-3").amazingcarousel({
+        jsfolder:jsFolder,
+        // width:240,
+        // height:180,
         skinsfoldername:"",
         interval:3000,
         itembottomshadowimagetop:99,
         random:false,
-        direction:"vertical",
+        direction:"horizontal",
         arrowheight:28,
         itembackgroundimagewidth:100,
-        skin:"List",
+        skin:"Thumbnail",
         responsive:true,
         bottomshadowimage:"bottomshadow-110-95-0.png",
-        navstyle:"bullets",
+        navstyle:"none",
         enabletouchswipe:true,
         backgroundimagetop:-40,
         arrowstyle:"always",
         bottomshadowimagetop:95,
-        transitionduration:1000,
-        hoveroverlayimage:"hoveroverlay-64-64-5.png",
+        transitionduration:750,
+        hoveroverlayimage:"../img/hoveroverlay-64-64-5.png",
         itembottomshadowimage:"itembottomshadow-100-98-3.png",
         showitembottomshadow:false,
         transitioneasing:"easeOutExpo",
@@ -47,7 +49,7 @@ jQuery(document).ready(function(){
 		visibleitems: 1
 	}
 },
-        navimage:"../img/bullet-12-12-1.png",
+        navimage:"bullet-16-16-0.png",
         itembackgroundimagetop:0,
         showbackgroundimage:false,
         showplayvideo:true,
@@ -62,15 +64,15 @@ jQuery(document).ready(function(){
         pauseonmouseover:true,
         navmode:"page",
         arrowhideonmouseleave:1000,
-        navwidth:12,
-        navspacing:4,
+        navwidth:16,
+        navspacing:8,
         playvideoimage:"playvideo-64-64-0.png",
-        visibleitems:3,
+        visibleitems:1,
         navswitchonmouseover:false,
         bottomshadowimagewidth:110,
         autoplay:true,
         backgroundimagewidth:110,
         loop:0,
-        navheight:12
+        navheight:16
     });
 });

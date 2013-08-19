@@ -15,17 +15,26 @@ body{
   padding: 0 10px;
 }
 
-.panel .title{
-  padding: 5px 6px;
-  font-size: 12pt;
+
+.wepg-panel{
+  /*border: 1px solid #fff;*/
+  padding: 10px;
+  /*border: 1px solid #000;*/
+  border: none;
+}
+.wepg-panel .title{  
+  font-family: verdana;
+  font-size: 11pt;
+  font-weight: bold;;
+  color: #9B0000;
+  padding: 0 3px 5px 3px;
+  margin-bottom: 5px;
   border-bottom:1px solid rgba(119, 16, 42, 0.2);
-/*  -webkit-box-shadow: 0 0 10px 0 rgba(119, 16, 42, 0.5);
-     -moz-box-shadow: 0 0 10px 0 rgba(119, 16, 42, 0.5);
-          box-shadow: 0 0 10px 0 rgba(119, 16, 42, 0.5);*/
 }
 
 #wepg-principal{
   margin-top: 10px;
+  padding-bottom: 0;
 }
 
 #wepg-principal .row{
@@ -56,36 +65,11 @@ body{
 }
 #wepg-encabezado{
   padding: 20px 0;
+  color: #fff;
 }
 
-.icosocial ul{
-  list-style-type:none;
-  list-style-position:inherit;
-  margin-right:10px;
-}
-.icosocial li{
-  display:inline-block;
-  float:right;
-  margin:0 0 0 15px;
-}
-.icosocial a{
-  display:block;
-  width:30px;
-  height:30px;
-  background-image:url(../img/icoSociales4.png);
-}
-.icosocial a span{
-  display:none; 
-}
-.icosocial #face{background-position:0 0}
-.icosocial #twit{background-position:-35px 0}
-.icosocial #you{background-position:-70px 0}
-.icosocial #gog{background-position:-105px 0}
 
-.icosocial #face:hover{background-position:0 30px}
-.icosocial #twit:hover{background-position:-35px 30px}
-.icosocial #you:hover{background-position:-70px 30px}
-.icosocial #gog:hover{background-position:-105px 30px}
+
 
 
 /*navegacion principal */
@@ -143,28 +127,55 @@ body{
 }
 
 #wepg-eventos{
-  min-height: 350px;  
+  min-height: 310px;  
 }
+
+#wepg-eventos .media .media-body{
+  font-size: 10pt;
+}
+
+#wepg-eventos .media .media-heading{
+  font-size: 10.5pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 
 #wepg-eventos a{
   color: #000;
   text-decoration: none;  
 }
 
+#wepg-anunsec{
+  min-height: 310px;
+}
+
+#wepg-av{
+  width: 100%;
+}
+#wepg-av img{
+  width: 100%;
+  height: 112px;
+}
+
 /*Noticias*/
 #wepg-noticia{
-  min-height: 350px;
+  min-height: 230px;
+}
+
+#wepg-noticia img{
+  width: 150px;
+  height:120px; 
 }
 
 /*extras*/
 
 #wepg-extra{
-  min-height: 350px;
+  min-height: 310px;
 }
 
 #wepg-publi{
   min-height: 230px;
-  max-height: 350px;
 }
 
 /*promociones*/
@@ -175,7 +186,7 @@ body{
 
 /*footer*/
 #wepg-footer{
-  padding: 30px 0;
+  padding: 10px 0;
   border-top: 1px solid #e5e5e5;
   background: -webkit-linear-gradient(#212121, #161616);
   background: -moz-linear-gradient(#212121, #161616);
@@ -189,5 +200,38 @@ body{
 #wepg-footer > ul >li{
   display: table-column;
 }
+.icono i{
+  height: 30px;
+  width: 30px;
+  background-image: url(../img/iconos.png);
+}
+.icono #ico-reloj{background-position:0 0}
 
+.icosocial ul{
+  list-style-type:none;
+  list-style-position:inherit;
+  padding: 0;
+}
+.icosocial li{
+  display:inline-block;
+  margin:0 0 0 15px;
+  background: #fff;
+}
+.icosocial a{
+  display:block;
+  width:30px;
+  height:30px;
+  background-image:url(../img/icosociales.png);
+}
+.icosocial a span{
+  display:none; 
+}
+.icosocial #face{background-position:0 0}
+.icosocial #twit{background-position:-35px 0}
+.icosocial #you{background-position:-70px 0}
+.icosocial #gog{background-position:-105px 0}
 
+.icosocial #face:hover{background-position:0 30px}
+.icosocial #twit:hover{background-position:-35px 30px}
+.icosocial #you:hover{background-position:-70px 30px}
+.icosocial #gog:hover{background-position:-105px 30px}

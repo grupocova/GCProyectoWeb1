@@ -5,15 +5,15 @@
     <div>
     <h3>Especialidades</h3>
       <ul class="">
-       <li><a>en enfermeria</a></li>    
+       <li><a href="#">En enfermeria</a></li>    
       </ul>
     <h3>Diplomados</h3>
 
       <ul class="">
 
-      <li><a>Estadistica Aplicada</a></li>
-      <li><a>Seguridad Industrial</a></li> 
-      <li><a>Bussines process Management</a></li>     
+      <li><a href="#">Estadistica Aplicada</a></li>
+      <li><a href="#">Seguridad Industrial</a></li> 
+      <li><a href="#">Bussines process Management</a></li>     
     </ul>
     </div>
   </div>
@@ -24,13 +24,13 @@
 
       <ul class="">
 
-      <li><a>Administracion de Negocios</a></li>
-      <li><a>Ciencias de la Familia</a></li>
-      <li><a>Enfermeria</a></li>  
-      <li><a>Educación</a></li>  
-      <li><a>Ingenieria de sistemas</a></li>
-      <li><a>Salud Pública</a></li>  
-      <li><a>Teología</a></li>        
+      <li><a href="#">Administracion de Negocios</a></li>
+      <li><a href="#">Ciencias de la Familia</a></li>
+      <li><a href="#">Enfermeria</a></li>  
+      <li><a href="#">Educación</a></li>  
+      <li><a href="#">Ingenieria de sistemas</a></li>
+      <li><a href="#">Salud Pública</a></li>  
+      <li><a href="#">Teología</a></li>        
     </ul>
     </div>
   </div>
@@ -41,10 +41,21 @@
 
       <ul class="">
 
-      <li><a>Administracion</a></li>
-      <li><a>Educación</a></li>
-      <li><a>Teología</a></li>        
+      <li><a href="#">Administracion</a></li>
+      <li><a href="#">Educación</a></li>
+      <li><a href="#">Teología</a></li>        
     </ul>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="icosocial">
+      <h4>SIGUENOS EN:</h4>
+      <ul>        
+        <li><a href="#" id="gog"><span>Google +</span></a></li>
+        <li><a href="#" id="you"><span>Youtube</span></a></li>
+        <li><a href="#" id="twit"><span>Twitter</span></a></li>        
+        <li><a href="#" id="face"><span>Facebook</span></a></li>        
+      </ul>            
     </div>
   </div>
 

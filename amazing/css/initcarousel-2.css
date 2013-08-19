@@ -47,14 +47,14 @@
 
 #amazingcarousel-2 .amazingcarousel-prev {
 	right: 0%;
-	top: 0%;
+	top: -15%;
 	margin-right: 32px;
 	margin-top: -16px;
 }
 
 #amazingcarousel-2 .amazingcarousel-next {
 	right: 0%;
-	top: 0%;
+	top: -15%;
 	margin-right: 0px;
 	margin-top: -16px;
 }
