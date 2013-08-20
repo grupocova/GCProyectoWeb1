@@ -24,7 +24,7 @@
 
 <div class="row">
   <!--panel izquierdo-->
-  <div class="col-lg-8 panel">
+  <div class="col-lg-8" style="padding:0 25px 0 0px;">
 
     <!--Anuncios secundarios-->
     <div class="wepg-panel">
@@ -48,9 +48,9 @@
         <ul class="amazingcarousel-list">
           <li class="amazingcarousel-item">
             <div class="amazingcarousel-item-container">
-              <div class="media panel">
+              <div class="media">
                 <a class="pull-left" href="#">
-                  <img class="media-object" src="fotos/noticia1.jpg">
+                  <img class="media-object img-thumbnail" src="fotos/noticia1.jpg">
                 </a>
                 <div class="media-body">
                   <h4 class="media-heading">Sustentación de Tesis - UPG Educación</h4>
@@ -62,9 +62,9 @@
           </li>
           <li class="amazingcarousel-item">
             <div class="amazingcarousel-item-container">
-              <div class="media panel">
+              <div class="media">
                 <a class="pull-left" href="#">
-                  <img class="media-object" src="fotos/noticia2.png">
+                  <img class="media-object img-thumbnail" src="fotos/noticia2.png">
                 </a>
                 <div class="media-body">
                   <h4 class="media-heading">Escuela de Posgrado - Convocatoria MBA 2013</h4>

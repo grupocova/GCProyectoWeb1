@@ -18,18 +18,21 @@ body{
 
 .wepg-panel{
   /*border: 1px solid #fff;*/
-  padding: 10px;
+  padding: 10px 0;
   /*border: 1px solid #000;*/
   border: none;
+  margin-bottom: 10px;
+  border-bottom: 5px dotted rgba(153, 55, 55, 0.1);
 }
 .wepg-panel .title{  
-  font-family: verdana;
-  font-size: 11pt;
-  font-weight: bold;;
-  color: #a3a2a2;
-  padding: 0 3px 5px 3px;
-  margin-bottom: 5px;
-  border-bottom:1px solid rgba(119, 16, 42, 0.2);
+  font-family: arial;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #fff;
+  padding: 7px 3px 7px 10px;
+  margin-bottom: 15px;
+  border-left: 5px solid #993434;
+  background: rgba(153, 55, 55, 0.4);
 }
 
 #wepg-principal{
