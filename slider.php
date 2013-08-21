@@ -5,6 +5,7 @@
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
   </ol>
   <div class="carousel-inner">
+   
     <div class="item active">
       <img src="fotos/slide03.png" alt="">
     </div>

@@ -1,6 +1,6 @@
 
 <!-- Navegacion Superior -->
-<div class="navbar navbar-fixed-top navbar-inverse">
+<div class="navbar navbar-fixed-top navbar-inverse" id="">
 <div class="container">
   <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".md-navbar-collapse">
     <span class="icon-bar"></span>
@@ -48,15 +48,23 @@
 
   <!-- Navegacion --> 
   <div class="row">  
-  <div class="col-lg-12 navbar wepg-nav-main">
-    <ul class="nav navbar-nav">
-      <li><a href="#">Nosotros</a></li>
+  <div class="col-lg-12 wepg-nav-main">
+    <ul class="nav nav-pills pull-right">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Nosotros <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Reseña Histórica</a></li>
+          <li><a href="#">Mision y Vision</a></li>
+        </ul>
+      </li>
       <li><a href="#">Especialidades</a></li>
       <li><a href="#">Diplomados</a></li>
       <li><a href="#">Maestrias</a></li>
       <li><a href="#">Doctorados</a></li>
     </ul>
-  </div>
+  </div>    
 
   <!-- Fin Navegacion --> 
 </div>

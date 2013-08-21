@@ -1,30 +1,26 @@
 <!---->
 <div class="row">
   <!--Panel extra -->
-  <div class="col-lg-12 panel" id"wepg-extra">
-    <div class="" id="wepg-av">
-      <!-- <img src="fotos/images.jpg"> -->
-      <ul class="">
-      <li>
-        <span class="">Small</span>
-        <span class="">&#10004; Visible on small</span>
-      </li>
-      <li>
-        <span class="">Medium</span>
-        <span class="">&#10004; Visible on medium</span>
-      </li>
-      <li>
-        <span class="">Large</span>
-        <span class="g">&#10004; Visible on large</span>
-      </li>
-    </ul>
+  <div class="col-lg-12 panel" id="wepg-extra">
+    <div class="title">Entérate de más ingresando a nuestros sitios</div>
+    <div class="item">
+      Galería
     </div>
+    <div class="item">
+      Multimedia
+    </div>
+    <div class="item">
+      Aula Virtual
+    </div>
+    <!-- <div class="" id="wepg-av">
+      <img class=" img-thumbnail" src="fotos/images.jpg"> 
+    </div> -->
   </div>
 </div>
 
 <div class="row">
   <!--panel izquierdo-->
-  <div class="col-lg-8" style="padding:0 25px 0 0px;">
+  <div class="col-lg-8" style="padding:0 10px 0 0px;">
 
     <!--Anuncios secundarios-->
     <div class="wepg-panel">
@@ -84,7 +80,7 @@
   </div>
 
   <!--panel derecho-->
-  <div class="col-lg-4 panel">
+  <div class="col-lg-4 panel" id="wepg-panelleft">
 
     <!--Eventos- calendario-->  
     <div class="wepg-panel" id="wepg-eventos">
